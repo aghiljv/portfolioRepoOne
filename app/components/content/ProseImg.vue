@@ -17,7 +17,7 @@ const webpSrc = computed(() => {
       v-if="webpSrc"
       :srcset="webpSrc"
       type="image/webp"
-    />
+    >
     <img
       :src="src"
       :alt="alt"
@@ -25,6 +25,6 @@ const webpSrc = computed(() => {
       :height="height"
       loading="lazy"
       decoding="async"
-    />
+    >
   </picture>
 </template>
