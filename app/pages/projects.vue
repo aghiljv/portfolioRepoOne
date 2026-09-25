@@ -88,7 +88,7 @@ defineOgImage('Portfolio', { title, description })
               {{ new Date(project.date).getFullYear() }}
             </span>
           </template>
-          <template #footer>
+          <!-- <template #footer>
             <ULink
               :to="project.url"
               class="text-sm text-primary flex items-center"
@@ -99,7 +99,7 @@ defineOgImage('Portfolio', { title, description })
                 class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"
               />
             </ULink>
-          </template>
+          </template> -->
           <img
             :src="project.image"
             :alt="project.title"
