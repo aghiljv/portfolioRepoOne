@@ -47,6 +47,13 @@ jobs:
       - name: Generate Nuxt static site
         run: pnpm exec nuxi generate
 
+      - name: Copy public assets and preserve generated build folders
+        run: |
+          if [ -d "public" ]; then
+            rsync -a public/ .output/public/
+          fi
+          touch .output/public/.nojekyll
+
       - name: Ensure .nojekyll exists
         run: touch .output/public/.nojekyll
 
