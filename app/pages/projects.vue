@@ -28,17 +28,8 @@ useSeoMeta({
 
 defineOgImage('Portfolio', { title, description })
 
-// Strips '/_ipx/.../' or '/ipx/.../' and size options from paths
-const getCleanImagePath = (src?: string): string => {
-  if (!src) return ''
-  // Replaces leading IPX path wrappers with a clean root relative slash
-  const cleanPath = src.replace(/^(\/_?ipx\/[^/]+\/|\/_?ipx\/)/i, '/')
-  return cleanPath.startsWith('/') ? cleanPath : `/${cleanPath}`
-}
-
-const getWebpImage = (src?: string): string | undefined => {
-  const clean = getCleanImagePath(src)
-  return /\.jpe?g$/i.test(clean) ? clean.replace(/\.jpe?g$/i, '.webp') : undefined
+const getWebpImage = (src: string) => {
+  return /\.jpe?g$/i.test(src) ? src.replace(/\.jpe?g$/i, '.webp') : undefined
 }
 </script>
 
@@ -84,10 +75,9 @@ const getWebpImage = (src?: string): string | undefined => {
               />
             </ULink>
           </template> -->
-          <picture v-if="project.image">
+          <picture>
             <source v-if="getWebpImage(project.image)" :srcset="getWebpImage(project.image)" type="image/webp">
-            <img :src="getCleanImagePath(project.image)" :alt="project.title" loading="lazy"
-              class="object-cover w-full h-48 rounded-lg">
+            <img :src="project.image" :alt="project.title" loading="lazy" class="object-cover w-full h-48 rounded-lg">
           </picture>
         </UPageCard>
       </Motion>
