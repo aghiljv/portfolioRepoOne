@@ -2,12 +2,12 @@
 title: "6 Levels of Autonomous Vehicles"
 description: "An article describing the levels involved in autonomous driving."
 date: 2020-06-15
-image: /assets/images/blog/150620/adLevelTitle.jpg
+image: /assets/images/blog/150620/adLevelTitle.webp
 minRead: 4
 author:
   name: Aghil Jose
   avatar:
-    src: /assets/images/about.jpg
+    src: /assets/images/about.webp
     alt: Aghil Jose
 ---
 
@@ -23,10 +23,12 @@ among us, they are not quite as smart as portrayed in pop culture yet. Let’s
 examine the levels of autonomous vehicles.
 
 ## 1. Level 0 – No Automation
+
 This is your ordinary car, sometimes equipped with cruise control and that’s
 it. Most of the vehicles on the road still fall under this category.
 
 ## 2. Level 1 – Driver Assistance
+
 This is the level in which you will find the adaptive cruise control and lane
 keep assist to help the driver. Adaptive cruise control will keep a safe
 distance between the vehicle you are in and the vehicle ahead with the help of
@@ -37,6 +39,7 @@ the driver. It still requires the driver to be in control. 2018 Toyota Corolla
 and 2018 Nissan Sentra are examples of Level 1 cars.
 
 ## 3. Level 2 – Partial Automation
+
 This is the level where it gets interesting. The cars in this level can assist
 in controlling speed as well as steering. But the driver must have hands on
 the wheel and be ready to take control at any given moment. It will help you
@@ -45,7 +48,8 @@ maintaining distance between you and the vehicle in front of you. Tesla
 Autopilot, Volvo Pilot Assist, Audi Traffic Jam assist are some examples.
 
 ## 4. Level 3 – Conditional Automation
-![level3](/assets/images/blog/150620/level3.jpg)
+
+![level3](/assets/images/blog/150620/level3.webp)
 
 This is the level that is going to be available to the general public.
 Currently only Tesla and Mercedes-Benz holds the approval for the same. These
@@ -56,7 +60,8 @@ required behind the wheel, should the prior mentioned ideal conditions are not
 present.
 
 ## 5. Level 4 – High Automation
-![level4](/assets/images/blog/150620/level4.jpg)
+
+![level4](/assets/images/blog/150620/level4.webp)
 
 Level 4 autonomous vehicles can drive themselves without human interactions.
 Yes, the passenger still need to enter the destination. The level 4 will still
@@ -68,7 +73,8 @@ are also in the process of testing vehicles capable of driving in most
 environments and road conditions.
 
 ## 6. Level 5 – Full Automation
-![level5](/assets/images/blog/150620/level5.jpg)
+
+![level5](/assets/images/blog/150620/level5.webp)
 
 In this level, we arrive at true driverless cars. Level 5 vehicles should be
 able to monitor and manoeuvre through all road conditions and require no human
@@ -78,7 +84,7 @@ your very own K.I.T.T from Knight Rider (1982).
 
 Below are the status of some OEMs on the autonomous field:
 
-![status](/assets/images/blog/150620/status.jpg)
+![status](/assets/images/blog/150620/status.webp)
 
 Due to regulations, legal battles and the technology Level 5 vehicles are
 probably still many years away.
@@ -86,4 +92,3 @@ probably still many years away.
 Disclaimer : The views and opinions expressed in the article belong solely to the
 author, and not necessarily to the author's employer, organisation, committee
 or other group or individual.
-

@@ -2,12 +2,12 @@
 title: "Semantic Web - A Smarter Future"
 description: "A brief description of semantic web"
 date: 2023-08-12
-image: /assets/images/blog/120823/title.jpg
+image: /assets/images/blog/120823/title.webp
 minRead: 5
 author:
   name: Aghil Jose
   avatar:
-    src: /assets/images/about.jpg
+    src: /assets/images/about.webp
     alt: Aghil Jose
 ---
 

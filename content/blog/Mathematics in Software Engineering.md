@@ -2,12 +2,12 @@
 title: "Mathematics in Software Engineering"
 description: "Why mathematics is important for a software engineer"
 date: 2023-10-08
-image: /assets/images/blog/081023/title.jpg
+image: /assets/images/blog/081023/title.webp
 minRead: 3
 author:
   name: Aghil Jose
   avatar:
-    src: /assets/images/about.jpg
+    src: /assets/images/about.webp
     alt: Aghil Jose
 ---
 

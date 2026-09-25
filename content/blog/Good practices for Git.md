@@ -2,12 +2,12 @@
 title: "Good practices for Git"
 description: "What are the good practices to make git work in our favor."
 date: 2020-10-18
-image: /assets/images/blog/191020/title.jpg
+image: /assets/images/blog/191020/title.webp
 minRead: 3
 author:
   name: Aghil Jose
   avatar:
-    src: /assets/images/about.jpg
+    src: /assets/images/about.webp
     alt: Aghil Jose
 ---
 

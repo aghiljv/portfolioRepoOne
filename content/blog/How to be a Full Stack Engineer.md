@@ -2,12 +2,12 @@
 title: "How to be a Full Stack Engineer"
 description: "An article to help you accelerate on your path to become a Full Stack Engineer."
 date: 2020-07-26
-image: /assets/images/blog/260720/fullStackTitle.jpg
+image: /assets/images/blog/260720/fullStackTitle.webp
 minRead: 6
 author:
   name: Aghil Jose
   avatar:
-    src: /assets/images/about.jpg
+    src: /assets/images/about.webp
     alt: Aghil Jose
 ---
 

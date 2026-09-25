@@ -2,12 +2,12 @@
 title: "Computational Fluid Dynamics"
 description: "CFD Simulations and its advatanges of classical experiments."
 date: 2021-03-27
-image: /assets/images/blog/290321/title.jpg
+image: /assets/images/blog/290321/title.webp
 minRead: 3
 author:
   name: Aghil Jose
   avatar:
-    src: /assets/images/about.jpg
+    src: /assets/images/about.webp
     alt: Aghil Jose
 ---
 

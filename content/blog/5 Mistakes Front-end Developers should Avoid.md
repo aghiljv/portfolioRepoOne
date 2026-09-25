@@ -2,12 +2,12 @@
 title: "5 Mistakes Front-end Developers should Avoid"
 description: "An article regarding usual mistakes made by most Front-end Developers/Engineers."
 date: 2020-04-20
-image: /assets/images/blog/200420/frontMistake.jpg
+image: /assets/images/blog/200420/frontMistake.webp
 minRead: 5
 author:
   name: Aghil Jose
   avatar:
-    src: /assets/images/about.jpg
+    src: /assets/images/about.webp
     alt: Aghil Jose
 ---
 
@@ -24,6 +24,7 @@ are focussing on 5 of them. These should be avoided to ensure a good user
 base.
 
 ## 1. Coding with Older HTML Standards
+
 ![browsers](/assets/images/blog/200420/browsers.png)
 
 Many front-end developers stopped the practice of coding with old HTML
@@ -37,6 +38,7 @@ site. Therefore, coding with older HTML could put your site at risk of
 security attacks.
 
 ## 2. Using Obsolete JavaScript Libraries
+
 JavaScript libraries that will not be supported or maintained years later
 could inflict adverse impacts on your site. If support is no longer available
 for a JavaScript library that you used to build the front-end of your site,
@@ -50,6 +52,7 @@ to come. It's always wise to go for libraries that are supported by big brands
 as they tend to last longer than most.
 
 ## 3. Not Testing Code with Major Browsers
+
 ![html5](/assets/images/blog/200420/html5.png)
 
 If you miss out on testing your code for all the major browsers, your site
@@ -60,7 +63,8 @@ developers can put into use their sites’ browsing analytics data to identify
 common browsers they would like to support.
 
 ## 4. Not Creating Responsive Mobile Design
-![res](/assets/images/blog/200420/res.jpg)
+
+![res](/assets/images/blog/200420/res.webp)
 
 We have entered an era where people like to browse the web on phones rather
 than desktops. The rising trend of internet surfing on mobile phones makes it
@@ -79,6 +83,7 @@ supports all possible breakpoints. Developers can use emulators for testing to
 avoid the hassle of dealing with several devices.
 
 ## 5. No Focus on Site Speed
+
 Site speed directly affects bounce rates, conversion rates, revenue and user
 satisfaction. Site speed depends on various factors. For example, client side
 can become slow due to Spaghetti JavaScript code, whereas large images can
@@ -97,4 +102,3 @@ site, which has become the need of the hour.
 Disclaimer : The views and opinions expressed in the article belong solely to the
 author, and not necessarily to the author's employer, organisation, committee
 or other group or individual.
-

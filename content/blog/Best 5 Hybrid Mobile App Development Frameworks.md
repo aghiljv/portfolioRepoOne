@@ -2,12 +2,12 @@
 title: "Best 5 Hybrid Mobile App Development Frameworks"
 description: "An article regarding the prominent hybrid mobile application development tools."
 date: 2020-06-08
-image: /assets/images/blog/080620/hybridTitle.jpg
+image: /assets/images/blog/080620/hybridTitle.webp
 minRead: 4
 author:
   name: Aghil Jose
   avatar:
-    src: /assets/images/about.jpg
+    src: /assets/images/about.webp
     alt: Aghil Jose
 ---
 
@@ -25,13 +25,14 @@ on a particular stack. So, here are the best tools according to my humble
 opinion.
 
 ## 1. Flutter
-![flutter](/assets/images/blog/080620/flutter.jpg)
+
+![flutter](/assets/images/blog/080620/flutter.webp)
 
 Flutter was launched by Google in 2017 and is among the top contenders in the
 industry. It is used to produce native-looking products for various operating
 systems.
 
-**Features** **
+**Features** \*\*
 
 - Hot Reload.
 
@@ -42,13 +43,14 @@ systems.
 - Access to Native Feature.
 
 ## 2. React Native
-![ionic](/assets/images/blog/080620/ionic.jpg)
+
+![ionic](/assets/images/blog/080620/ionic.webp)
 
 React Native brings with it, the features of JavaScript and React. It is also
 preferred for native application development and is able to give flutter a run
 for their money.
 
-**Features** **
+**Features** \*\*
 
 - Modular and intuitive architecture similar to React.
 
@@ -59,12 +61,13 @@ for their money.
 - Community-driven.
 
 ## 3. Ionic
-![jQueryMobile](/assets/images/blog/080620/jQueryMobile.jpg)
+
+![jQueryMobile](/assets/images/blog/080620/jQueryMobile.webp)
 
 This platform is based on CSS and reaches its maximum potential when used
 jointly with AngularJS.
 
-**Features** **
+**Features** \*\*
 
 - JavaScript components.
 
@@ -75,13 +78,14 @@ jointly with AngularJS.
 - Cordova based plugins.
 
 ## 4. jQuery Mobile
-![reactNative](/assets/images/blog/080620/reactNative.jpg)
+
+![reactNative](/assets/images/blog/080620/reactNative.webp)
 
 This one does not try to adopt a native look. It keeps its individuality while
 working flawlessly in various platforms. It is a great choice if you want to
 create something exceptional instead of sticking to template designs.
 
-**Features** **
+**Features** \*\*
 
 - Built on jQuery core.
 
@@ -92,13 +96,15 @@ create something exceptional instead of sticking to template designs.
 - Powerful Ajax-powered navigation system.
 
 ## 5. Xamarin
-![xamarin](/assets/images/blog/080620/xamarin.jpg)
+
+![xamarin](/assets/images/blog/080620/xamarin.webp)
 
 Xamarin does have a good track record as well as a large community of
 satisfied followers. This framework allows you to create universal apps and
 run them on different devices without sacrificing native design
 
 ## Features
+
 - Simplified testing.
 
 - Support from Microsoft.
@@ -113,4 +119,3 @@ your end product, and select the most suitable technology stack.
 Disclaimer : The views and opinions expressed in the article belong solely to the
 author, and not necessarily to the author's employer, organisation, committee
 or other group or individual.
-

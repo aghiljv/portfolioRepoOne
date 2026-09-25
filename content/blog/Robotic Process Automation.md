@@ -2,12 +2,12 @@
 title: "Robotic Process Automation"
 description: "About the Robotic Process Automation and its benefits."
 date: 2021-01-10
-image: /assets/images/blog/110121/title.jpg
+image: /assets/images/blog/110121/title.webp
 minRead: 5
 author:
   name: Aghil Jose
   avatar:
-    src: /assets/images/about.jpg
+    src: /assets/images/about.webp
     alt: Aghil Jose
 ---
 

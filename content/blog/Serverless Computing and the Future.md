@@ -2,12 +2,12 @@
 title: "Serverless Computing and the Future"
 description: "Serverless computing and its various possibilities"
 date: 2023-08-26
-image: /assets/images/blog/260823/title.jpg
+image: /assets/images/blog/260823/title.webp
 minRead: 4
 author:
   name: Aghil Jose
   avatar:
-    src: /assets/images/about.jpg
+    src: /assets/images/about.webp
     alt: Aghil Jose
 ---
 
