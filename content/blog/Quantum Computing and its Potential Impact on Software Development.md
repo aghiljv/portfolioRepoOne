@@ -2,12 +2,12 @@
 title: "Quantum Computing and its Potential Impact on Software Development"
 description: "Potential implementations of Quantum computing"
 date: 2023-09-10
-image: /assets/images/blog/100923/title.jpg
+image: /assets/images/blog/100923/title.webp
 minRead: 3
 author:
   name: Aghil Jose
   avatar:
-    src: /assets/images/about.jpg
+    src: /assets/images/about.webp
     alt: Aghil Jose
 ---
 

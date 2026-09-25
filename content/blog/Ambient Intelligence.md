@@ -2,12 +2,12 @@
 title: "Ambient Intelligence"
 description: "A small introduction to the developing concept of Ambient Intelligence."
 date: 2021-03-07
-image: /assets/images/blog/080321/title.jpg
+image: /assets/images/blog/080321/title.webp
 minRead: 4
 author:
   name: Aghil Jose
   avatar:
-    src: /assets/images/about.jpg
+    src: /assets/images/about.webp
     alt: Aghil Jose
 ---
 
@@ -22,18 +22,23 @@ context awareness and human-centric computer interaction design. They are
 characterized as the following.
 
 ## 1. Embedded
+
 Many networks are integrated into the environment.
 
 ## 2. Context aware
+
 These devices can recognize you and your situational context.
 
 ## 3. Personalized
+
 They can be tailored to your needs
 
 ## 4. Anticipatory
+
 They can anticipate your desires without conscious mediation.
 
 ## 5. Adaptive
+
 They can change in response to you.
 
 Typical contexts of ambient intelligence work environment may include:
@@ -88,20 +93,20 @@ should:
 - Be oriented towards community and cultural enhancement.
 
 - Help to build knowledge and skills for work, better quality of work,
-citizenship and consumer choice.
+  citizenship and consumer choice.
 
 - Inspire trust and confidence.
 
 - Be consistent with long term sustainability—personal, societal and
-environmental—and with lifelong learning.
+  environmental—and with lifelong learning.
 
 - Be made easy to live with and controllable by ordinary people.
 
 ## As a result of maturing AmI research, the resulting technologies promise to
+
 revolutionize daily human life by making people’s surroundings flexible and
 adaptive.
 
 Disclaimer : The views and opinions expressed in the article belong solely to
 the author, and not necessarily to the author's employer, organisation,
 committee or other group or individual.
-

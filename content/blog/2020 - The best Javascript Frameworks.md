@@ -2,12 +2,12 @@
 title: "2020 - The best Javascript Frameworks"
 description: "Some of the best available JavaScript to work with in 2020."
 date: 2020-05-04
-image: /assets/images/blog/040520/jsframeworks.jpg
+image: /assets/images/blog/040520/jsframeworks.webp
 minRead: 5
 author:
   name: Aghil Jose
   avatar:
-    src: /assets/images/about.jpg
+    src: /assets/images/about.webp
     alt: Aghil Jose
 ---
 
@@ -36,6 +36,7 @@ That being said, here are 5 frameworks that I think are the best int the
 market.
 
 ## 1. ReactJS
+
 ![angular](/assets/images/blog/040520/angular.png)
 
 ReactJS is an effective open-source Javascript Library used for making
@@ -51,6 +52,7 @@ numerous libraries, and improved support process.
 Notable users : Facebook, Netflix.
 
 ## 2. VueJS
+
 ![ember](/assets/images/blog/040520/ember.png)
 
 One of he most celebrated and my personal favourite VueJS was made by Evan You
@@ -65,6 +67,7 @@ as it enhances the already existing tremendous features of VueJS.
 Notable users : Adobe, Behance.
 
 ## 3. Angular
+
 ![react](/assets/images/blog/040520/react.png)
 
 Angular is one of the most proficient and well-known JavaScript frameworks
@@ -79,6 +82,7 @@ style, enormous condition, and top-notch code age.
 Notable users : Google, Microsoft.
 
 ## 4. SvelteJS
+
 ![svelte](/assets/images/blog/040520/svelte.png)
 
 SvelteJS, an emerging framework, is similar to JavaScript frameworks such as
@@ -94,6 +98,7 @@ on a conventional framework.
 Notable users : NY Times, Razorpay.
 
 ## 5. EmberJS
+
 ![vue](/assets/images/blog/040520/vue.png)
 
 EmberJS is an open-source front-end JavaScript framework that enables software
@@ -116,4 +121,3 @@ the decision on which one to go forward with.
 Disclaimer : The views and opinions expressed in the article belong solely to the
 author, and not necessarily to the author's employer, organisation, committee
 or other group or individual.
-

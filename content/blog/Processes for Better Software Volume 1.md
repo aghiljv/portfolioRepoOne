@@ -2,12 +2,12 @@
 title: "Processes for Better Software Volume 1"
 description: "Best practices for Software Engineers."
 date: 2020-08-24
-image: /assets/images/blog/240820/process1Title.jpg
+image: /assets/images/blog/240820/process1Title.webp
 minRead: 4
 author:
   name: Aghil Jose
   avatar:
-    src: /assets/images/about.jpg
+    src: /assets/images/about.webp
     alt: Aghil Jose
 ---
 
@@ -19,7 +19,7 @@ They are termed good practices and we will go through some of them today,
 which by following, has helped me personally to create better software.
 
 ## 1. Planning
-![commenting](/assets/images/blog/240820/commenting.jpg)
+![commenting](/assets/images/blog/240820/commenting.webp)
 
 One should always have a plan of action while developing, no matter which
 technology/technologies is/are involved. Being impulsive and just winging it
@@ -30,7 +30,7 @@ technologies and frameworks are apt for those and then start the project, not
 on the fly.
 
 ## 2. Modularising
-![frameworks](/assets/images/blog/240820/frameworks.jpg)
+![frameworks](/assets/images/blog/240820/frameworks.webp)
 
 My favorite OOP concept. Files/classes/functions/methods should be kept as
 short as possible and doing only the job they are supposed to do. Nothing more
@@ -39,7 +39,7 @@ readability of the entire code but also helps in scaling the application in
 the future.
 
 ## 3. Commenting and documenting
-![modularising](/assets/images/blog/240820/modularising.jpg)
+![modularising](/assets/images/blog/240820/modularising.webp)
 
 This might certainly be the most overlooked part of development. How many of
 us have went back to something written by ourselves 1 or more years back and
@@ -50,7 +50,7 @@ you’d have a much easier job of understanding what it was and how you might be
 able to improve it.
 
 ## 4. Writing tests
-![planning](/assets/images/blog/240820/planning.jpg)
+![planning](/assets/images/blog/240820/planning.webp)
 
 Test driven development should come naturally to every software engineer. You
 might be tempted to skip it all and get to the results faster. Yes, it most
@@ -63,7 +63,7 @@ writing tests, you can create a completely bug free software, but it will
 certainly help you bring down their numbers significantly.
 
 ## 5. Making use of frameworks
-![tests](/assets/images/blog/240820/tests.jpg)
+![tests](/assets/images/blog/240820/tests.webp)
 
 Maybe you are the fan of creating everything from scratch and there is
 absolutely nothing wrong with that. But sometimes you might be solving

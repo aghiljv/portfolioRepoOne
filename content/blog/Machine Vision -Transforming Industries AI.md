@@ -2,12 +2,12 @@
 title: "Machine Vision -Transforming Industries AI"
 description: "Relevance of Machine Vision today"
 date: 2023-08-19
-image: /assets/images/blog/190823/title.jpg
+image: /assets/images/blog/190823/title.webp
 minRead: 4
 author:
   name: Aghil Jose
   avatar:
-    src: /assets/images/about.jpg
+    src: /assets/images/about.webp
     alt: Aghil Jose
 ---
 

@@ -2,12 +2,12 @@
 title: "Design Patterns - Why and How?"
 description: "A brief explanation of the need and use of design patterns."
 date: 2020-09-07
-image: /assets/images/blog/070920/dpTitle.jpg
+image: /assets/images/blog/070920/dpTitle.webp
 minRead: 5
 author:
   name: Aghil Jose
   avatar:
-    src: /assets/images/about.jpg
+    src: /assets/images/about.webp
     alt: Aghil Jose
 ---
 
@@ -27,7 +27,7 @@ In short, design patterns try to solve the issues that come along with change.
 
 ** Ever Changing Software** **
 
-![change](/assets/images/blog/070920/change.jpg)
+![change](/assets/images/blog/070920/change.webp)
 
 Version 1.0 is just an incomplete software. Every good software that stood the
 trial of time has undergone constant evolution. Google and Apple just didn’t
@@ -91,7 +91,7 @@ But we can safely say that there is but one golden and universal design
 pattern – KISS (Keep It Simple, Stupid).
 
 ##  KISS (Keep It Simple, Stupid)
-![kiss](/assets/images/blog/070920/kiss.jpg)
+![kiss](/assets/images/blog/070920/kiss.webp)
 
 Every new line of code that we write is a new potential thing which can go
 wrong. So, logically, the less we write, the time and effort we need to spend

@@ -2,12 +2,12 @@
 title: "Embracing Decentralized Development"
 description: "The advantages of using decentralised development"
 date: 2023-10-01
-image: /assets/images/blog/011023/title.jpg
+image: /assets/images/blog/011023/title.webp
 minRead: 4
 author:
   name: Aghil Jose
   avatar:
-    src: /assets/images/about.jpg
+    src: /assets/images/about.webp
     alt: Aghil Jose
 ---
 
