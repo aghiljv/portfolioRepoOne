@@ -54,14 +54,15 @@ const formatDate = (dateString: string) => {
   })
 }
 
-// Strips /ipx/ or /_ipx/ prefixes and modifiers (like /s_72x72/)
-const getCleanImagePath = (src: string): string => {
+// Strips '/_ipx/.../' or '/ipx/.../' and size options from paths
+const getCleanImagePath = (src?: string): string => {
   if (!src) return ''
+  // Replaces leading IPX path wrappers with a clean root relative slash
   const cleanPath = src.replace(/^(\/_?ipx\/[^/]+\/|\/_?ipx\/)/i, '/')
   return cleanPath.startsWith('/') ? cleanPath : `/${cleanPath}`
 }
 
-const getWebpImage = (src: string): string | undefined => {
+const getWebpImage = (src?: string): string | undefined => {
   const clean = getCleanImagePath(src)
   return /\.jpe?g$/i.test(clean) ? clean.replace(/\.jpe?g$/i, '.webp') : undefined
 }
