@@ -23,3 +23,28 @@
     background-color: #474747;
   }
 }
+
+.blog-content h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.blog-content h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.blog-content h4 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.blog-content h5 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.blog-content h6 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}

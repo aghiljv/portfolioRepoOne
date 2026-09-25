@@ -49,8 +49,7 @@ So, what are the key components on any PC builds?
 
 - Keyboard & Mouse
 
-**Processor**
-
+## Processor
 ![case](/assets/images/blog/290620/case.jpg)
 
 This is the first component you have to choose when you are building a PC.
@@ -61,8 +60,7 @@ catching up on this and with the release of Ryzen 3rd generation processors,
 some might say, they even surpassed Intel on many grounds. Also, AMD provides
 good performance at cheaper costs compared to Intel.
 
-**Motherboard**
-
+## Motherboard
 ![fans](/assets/images/blog/290620/fans.jpg)
 
 This is one of the primary components you want to choose. This component will
@@ -74,8 +72,7 @@ your Processor not to mention the socket. It will determine what kind of RAM
 whether combining the power of multiple GPUs is an option, storage – how many
 and what type, etc.
 
-**Memory (RAM)**
-
+## Memory (RAM)
 ![gpu](/assets/images/blog/290620/gpu.jpg)
 
 Even long after your build, by adding more memory, you could give your PC a
@@ -89,8 +86,7 @@ bottleneck and if you choose a faster RAM, your processor or some other
 components will be the bottleneck. As I said, try and reduce those
 bottlenecks.
 
-**Storage**
-
+## Storage
 ![keymouse](/assets/images/blog/290620/keymouse.jpg)
 
 Your files and data are saved long-term on your storage device. Currently the
@@ -105,8 +101,7 @@ are much more susceptible to physical damage than NAND. You have to make sure
 that your motherboard does have ports for SSDs. Almost all the motherboards do
 support HDDs.
 
-**Graphics Card**
-
+## Graphics Card
 ![monitor](/assets/images/blog/290620/monitor.jpg)
 
 There are various types and classes of GPUs out there now. The big players
@@ -124,8 +119,7 @@ or the memory. The connection ports should also be kept in mind because, if
 the port version on the motherboard is older than that of the GPU, it will
 result in slower speeds than expected.
 
-**Power Supply (PSU)**
-
+## Power Supply (PSU)
 ![motherboard](/assets/images/blog/290620/motherboard.jpg)
 
 Undoubtedly, this is one of the most overlooked part while building a PC. You
@@ -137,8 +131,7 @@ of the PSU in delivering the power. 80+ means, it will do it with at least 80%
 efficiency. If you did not choose the PSU well, it might even cost you the
 whole build.
 
-**Case**
-
+## Case
 ![processor](/assets/images/blog/290620/processor.jpg)
 
 Nowadays there are a wide variety of choices for the cases. But you have to
@@ -148,8 +141,7 @@ will usually support smaller motherboards but not vice-versa. Also, you have
 to make sure you have enough space to install extra fans in order t provide
 better cooling to your build.
 
-**Fans and Coolers**
-
+## Fans and Coolers
 ![psu](/assets/images/blog/290620/psu.jpg)
 
 When you are building a high-performance PC, the components are going to
@@ -163,8 +155,7 @@ not enough circulation. So, you have to make sure of the same in order to keep
 your components in an optimum temperature, which will not only result in
 higher performance, but also the longevity of them.
 
-**Monitor/s**
-
+## Monitor/s
 ![ram](/assets/images/blog/290620/ram.jpg)
 
 This should be a no-brainer. You must have a monitor. But now there are lot of
@@ -175,8 +166,7 @@ time is the one you should go with. There are screens that offer higher
 resolution and high refresh rate together. But they are much more costly and
 you also need costlier components to push that much data into the monitor.
 
-**Keyboard & Mouse**
-
+## Keyboard & Mouse
 ![storage](/assets/images/blog/290620/storage.jpg)
 
 There are lot of options for keyboard and mouse now. These components are

@@ -24,8 +24,7 @@ With the number of tools out there, it might be sometime difficult on settling
 on a particular stack. So, here are the best tools according to my humble
 opinion.
 
-**1. Flutter**
-
+## 1. Flutter
 ![flutter](/assets/images/blog/080620/flutter.jpg)
 
 Flutter was launched by Google in 2017 and is among the top contenders in the
@@ -42,8 +41,7 @@ systems.
 
 - Access to Native Feature.
 
-**2. React Native**
-
+## 2. React Native
 ![ionic](/assets/images/blog/080620/ionic.jpg)
 
 React Native brings with it, the features of JavaScript and React. It is also
@@ -60,8 +58,7 @@ for their money.
 
 - Community-driven.
 
-**3. Ionic**
-
+## 3. Ionic
 ![jQueryMobile](/assets/images/blog/080620/jQueryMobile.jpg)
 
 This platform is based on CSS and reaches its maximum potential when used
@@ -77,8 +74,7 @@ jointly with AngularJS.
 
 - Cordova based plugins.
 
-**4. jQuery Mobile**
-
+## 4. jQuery Mobile
 ![reactNative](/assets/images/blog/080620/reactNative.jpg)
 
 This one does not try to adopt a native look. It keeps its individuality while
@@ -95,16 +91,14 @@ create something exceptional instead of sticking to template designs.
 
 - Powerful Ajax-powered navigation system.
 
-**5. Xamarin**
-
+## 5. Xamarin
 ![xamarin](/assets/images/blog/080620/xamarin.jpg)
 
 Xamarin does have a good track record as well as a large community of
 satisfied followers. This framework allows you to create universal apps and
 run them on different devices without sacrificing native design
 
-**Features**
-
+## Features
 - Simplified testing.
 
 - Support from Microsoft.

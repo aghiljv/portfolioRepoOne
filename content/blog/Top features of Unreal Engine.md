@@ -29,8 +29,7 @@ Sweeney at GDC 2019 -- it is one of the most popular game engines.
 Well, with my brief time with Unreal Engine, I think the following are some of
 the best it can offer.
 
-**1. Unreal Engine is Free**
-
+## 1. Unreal Engine is Free
 Development as well as releasing products with Unreal Engine is free. Well
 almost. Initially, you had to pay a 5% royalty to Epic Games, but only when
 the product passes $3000 per quarter. But along with the announcement of
@@ -41,8 +40,7 @@ they provide.
 Even still, this is amazing for small companies and studios as well as for the
 students who are interested in a cutting-edge game engine.
 
-**2. Blueprints**
-
+## 2. Blueprints
 ![blueprint](/assets/images/blog/180520/blueprint.jpg)
 
 Unreal Engine's visual scripting system, Blueprint, is the main reason the
@@ -51,8 +49,7 @@ and add wires to connect them and add logic in Blueprint. This node-based
 interface allows designers who don't have a technical background to explore
 their ideas without needing to know how to code.
 
-**3. Broad Toolset**
-
+## 3. Broad Toolset
 ![ueeditor](/assets/images/blog/180520/ueeditor.jpg)
 
 Unreal Engine's ease of use is also supported by a wide range of features and
@@ -62,8 +59,7 @@ Cinematics, scene layout, visual scripting, particle system, animation
 network, light-mapping, performance and memory tracking tools for
 optimisation, etc… are some of the examples.
 
-**4. Ability to handle wide variety of projects**
-
+## 4. Ability to handle wide variety of projects
 Flexibility is one of the driving factors of Unreal Engine. It can handle a
 wide variety of projects with ease. Including the fact that it serves a wide
 variety of industries it also can handle various genres of games –
@@ -71,8 +67,7 @@ action-adventure, open-world, side-scrollers, racing, etc… The Epic team has
 also made efforts for 2D games, but, to my humble opinion, not as extensively
 as its competitors.
 
-**5. Access to source code**
-
+## 5. Access to source code
 Epic games gives you access to the entire C++ source code of the Unreal
 Engine. You can download the code from GitHub, tweak it and the best part is,
 you don’t have to pay for it as well. The ability to access the source code of

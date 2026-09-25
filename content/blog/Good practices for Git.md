@@ -19,8 +19,7 @@ Git is a powerful tool. “But with great power, comes great responsibility”. 
 we do not follow certain conventions, it could end up as a bite in the back.
 So, here are some best practices for Git.
 
-**1. Make clean, single-purpose commits.**
-
+## 1. Make clean, single-purpose commits.
 There is a great chance for engineers to get sidetracked and do something else
 when they are working on something. For example, you might be fixing a bug.
 Then you find another bug. You probably cannot resist the urge to fix that as
@@ -36,8 +35,7 @@ efficient.
 
 - It is straightforward to track these changes with your ticketing system.
 
-**2. Commit early and often**
-
+## 2. Commit early and often
 Git works best and, in our favor, when we commit our work often. It is better
 to work in small chunks and keep committing our work rather than to wait for
 making the perfect commit. It could help us mitigate conflicts when we are
@@ -45,23 +43,20 @@ working on a feature that might take a long time to finish. Git will only take
 responsibility for the data we commit. It will help us from losing our work,
 reverting changes and help trace what we did when.
 
-**3. Write meaningful commit messages**
-
+## 3. Write meaningful commit messages
 This is the simplest of all. Descriptive and insightful commit messages that
 concisely describe what changes are being made as part of a commit make life
 easier for others as well as for our future self. If you are using a ticketing
 system, you should also include the ticket id in the description.
 
-**4. Don’t commit generated files**
-
+## 4. Don’t commit generated files
 The files actually worth committing are the ones that was created with manual
 effort and cannot be generated. Usually, the generated files can be
 re-generated at will and normally do not work with line-based diff tracking as
 well. We always need to make sure to add a .gitignore file in our repositories
 to automatically tell git which files or paths we do not want to track.
 
-**5. Don’t alter published history**
-
+## 5. Don’t alter published history
 Once a commit has been merged to an upstream default branch, it is strongly
 advised not to alter history. Git and other VCS tools do allow to rewrite
 branch history, but doing so is problematic for everyone who has access to the

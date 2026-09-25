@@ -37,8 +37,7 @@ likely to remain that way for some time. But, the amount of experimentation
 and the overall cost can be significantly reduced. Let us consider the
 differences between experiments and simulations.
 
-**Experiments**
-
+## Experiments
 - Expensive.
 
 - Sequential.
@@ -49,8 +48,7 @@ differences between experiments and simulations.
 
 - Slow.
 
-**Simulations**
-
+## Simulations
 - Cheaper.
 
 - Parallel.
@@ -73,27 +71,23 @@ We should also keep in mind that the results of CFD simulations are not yet
 CFD uses a computer to solve the mathematical equations for the problem at
 hand. The main components of a CFD process includes the following:
 
-**1. Human beings**
-
+## 1. Human beings
 An analyst or analysts, who states the problem to be solved. Another human
 being or human beings, will also be involved to inspect and interpret the
 simulations results. The one who states the problem and the one who inspect
 and interpret the results should not necessarily be different person.
 
-**2. Scientific knowledge**
-
+## 2. Scientific knowledge
 The models and methods which are expressed mathematically.
 
-**3. Software**
-
+## 3. Software
 The computer code which embodies the scientific knowledge and provides
 detailed algorithms for the solution.
 
-**4. Hardware**
-
+## 4. Hardware
 The physical computer hardwares which will perform the actual calculations.
 
-# CFD is a highly interdisciplinary research area which lies at the interface
+## CFD is a highly interdisciplinary research area which lies at the interface
 of physics, applied mathematics and computer science.
 
 Disclaimer : The views and opinions expressed in the article belong solely to

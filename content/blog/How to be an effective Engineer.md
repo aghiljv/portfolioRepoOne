@@ -19,8 +19,7 @@ The answers would differ from person to person. Some might even go very
 specific. But there are somethings that so many agree upon which could be
 applied by pretty much every one in the industry.
 
-**1. Analysis of scenarios**
-
+## 1. Analysis of scenarios
 ![analysis](/assets/images/blog/280920/analysis.jpg)
 
 The ability to consider many different scenarios is a must have trait for any
@@ -41,8 +40,7 @@ logic.
 
 - What happens if the argument is null? Etc.
 
-**2. Problem Decomposition**
-
+## 2. Problem Decomposition
 ![consistency](/assets/images/blog/280920/consistency.jpg)
 
 Software is primarily about solving problems. So, before we start writing
@@ -52,8 +50,7 @@ arsenal. But it doesn’t stop there. We should be able to model the problem in
 such a way that the resulting program is easy to reason about, easy to
 implement and test.
 
-**3. Naming**
-
+## 3. Naming
 ![learning](/assets/images/blog/280920/learning.jpg)
 
 Properly naming classes, methods, functions and variables goes a long way.
@@ -66,8 +63,7 @@ Naming things is not easy as it sounds. It needs to be clear in our mind what
 each name represents. Sometimes that might change during the development
 process. That is why renaming is just as important as naming.
 
-**4. Consistency**
-
+## 4. Consistency
 ![naming](/assets/images/blog/280920/naming.jpg)
 
 Managing complexity is undoubtedly one of the biggest challenges in software
@@ -83,8 +79,7 @@ up. There is a high chance for inconsistencies while modifying a software.
 Good engineers always ensure that even the small parts are right and the
 consistency is kept while modification.
 
-**5. Learning**
-
+## 5. Learning
 ![problem](/assets/images/blog/280920/problem.jpg)
 
 We are constantly learning as a software engineer. We have to understand what
@@ -95,7 +90,7 @@ surrounding systems in order to interface with them appropriately. Obviously,
 the ability to learn fast will make us more effective, but not necessarily
 always.
 
-# If we have these skills, we can learn new languages and tools much quicker
+## If we have these skills, we can learn new languages and tools much quicker
 and create exceptional software.
 
 Disclaimer : The views and opinions expressed in the article belong solely to the

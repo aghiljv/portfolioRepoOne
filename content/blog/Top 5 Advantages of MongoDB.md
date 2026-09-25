@@ -15,8 +15,7 @@ MongoDB is an open source platform written in C++ and has a very easy setup
 environment. It is a cross-platform, document-oriented and non-structured
 database.
 
-**1. Flexible Database**
-
+## 1. Flexible Database
 ![adhoc](/assets/images/blog/270420/adhoc.jpg)
 
 MongoDB stores data in flexible JSON-like documents, which makes data
@@ -27,8 +26,7 @@ rich indexing functionality are not compromised in any way. Without downtime,
 one can modify the schema dynamically. Due to this flexibility, a developer
 needs to worry less about data manipulation.
 
-**2. High Speed**
-
+## 2. High Speed
 ![pencil](/assets/images/blog/270420/pencil.jpg)
 
 A flexible data model with dynamic schema and with powerful GUI and command
@@ -40,8 +38,7 @@ database. It is easy to access documents by indexing. Hence, it provides fast
 query response. The speed of MongoDB is 100 times faster than the relational
 database.
 
-**3. Auto-sharding**
-
+## 3. Auto-sharding
 ![scalable](/assets/images/blog/270420/scalable.png)
 
 MongoDB can store a large data by distributing it to several servers connected
@@ -50,8 +47,7 @@ be no failure condition. It supports Master–Slave replication. MongoDB uses
 native application to maintain multiple copies of data. Preventing database
 downtime is one of the replica set’s features as it has self-healing shard.
 
-**4. Scalability**
-
+## 4. Scalability
 ![shard](/assets/images/blog/270420/shard.jpg)
 
 With the ever evolving needs of businesses, their database systems also needed
@@ -60,8 +56,7 @@ scalable database. It makes it easy to fetch the data and provides continuous
 and automatic integration. When you have to handle a large data, you can
 distribute it to several machines.
 
-**5. Ad-hoc Query Support**
-
+## 5. Ad-hoc Query Support
 ![speed](/assets/images/blog/270420/speed.jpg)
 
 Generally, when we design a schema of a database, we don’t know in advance

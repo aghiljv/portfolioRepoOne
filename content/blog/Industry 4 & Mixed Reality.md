@@ -26,8 +26,7 @@ plethora of other features.
 
 But what can Mixed Reality contribute to the Industry 4.0?
 
-**1. Speed up the Quality Control process**
-
+## 1. Speed up the Quality Control process
 ![improveTraining](/assets/images/blog/220620/improveTraining.jpg)
 
 Leveraging the use of overlaid information is also gaining supporters in
@@ -39,8 +38,7 @@ mistakes. For example, since adopting mixed reality in their production
 environments, Airbus has reported a reduction in time required to inspect A380
 fuselage brackets, from three weeks to just three days.
 
-**2. Minimize skilled labour shortage**
-
+## 2. Minimize skilled labour shortage
 It is estimated that there will be almost 3.5 million manufacturing jobs
 available over the next decade as ‘Baby Boomers’ exit the workforce. Already
 dealing with pressure to fill current open positions, how can manufacturers
@@ -51,8 +49,7 @@ remote support via HMDs. And when it comes to attracting the right talent, by
 integrating new technologies familiar to a younger demographic, manufacturers
 can experience a smoother on-boarding journey.
 
-**3. Improve employee training**
-
+## 3. Improve employee training
 ![speedUpCP](/assets/images/blog/220620/speedUpCP.jpg)
 
 Whether class-based or following study guides in the form of books and online
@@ -66,8 +63,7 @@ production lines, for electric propulsion systems. Not only have they
 witnessed a more efficient training output, they have cut time taken to create
 the training modules as well as cost; which is now a tenth of what it was.
 
-**4. Stay competitive**
-
+## 4. Stay competitive
 Combining the benefits of mixed reality with the analytics-driven power of IoT
 can leverage significant improvements. The potential opportunities are huge;
 and with the industry predicted to grow to US$108bn by 2021, new innovations
@@ -76,8 +72,7 @@ greatly towards the Industry 4.0 movement; capturing and contextualizing data,
 and automating manufacturing processes to optimize efficiency and reduce
 waste.
 
-**5. Reduce call out times for maintenance**
-
+## 5. Reduce call out times for maintenance
 Organizations that used to rely on engineers, working with heavy and often
 outdated manuals, are now using mixed reality to dramatically cut call out
 times. One such company is elevator manufacturer ThyssenKrupp. Engineers

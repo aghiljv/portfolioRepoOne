@@ -11,8 +11,7 @@ author:
     alt: Aghil Jose
 ---
 
-**1. Reduce the Number of Bugs**
-
+## 1. Reduce the Number of Bugs
 Taking care of bugs is not only tedious and time-consuming, but issues that
 appear in production are much more complex than if they had have been
 discovered in development or staging. By adding unit tests, failures can be
@@ -42,8 +41,7 @@ functional. Once your tests are passed, you feel confident knowing that your
 software is in good shape. Many issues could be avoided this way - not
 everything.
 
-**5. Easier Changes and Refactoring of Code**
-
+## 5. Easier Changes and Refactoring of Code
 Automated unit tests catches bugs easily and knowing that makes you feel more
 confident. Once an issue is detected, you feel more at ease when you have to
 make changes to your code, even if the changes are beyond trivial ones – any

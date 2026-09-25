@@ -21,24 +21,19 @@ The ambient intelligence paradigm builds upon ubiquitous computing, profiling,
 context awareness and human-centric computer interaction design. They are
 characterized as the following.
 
-**1. Embedded**
-
+## 1. Embedded
 Many networks are integrated into the environment.
 
-**2. Context aware**
-
+## 2. Context aware
 These devices can recognize you and your situational context.
 
-**3. Personalized**
-
+## 3. Personalized
 They can be tailored to your needs
 
-**4. Anticipatory**
-
+## 4. Anticipatory
 They can anticipate your desires without conscious mediation.
 
-**5. Adaptive**
-
+## 5. Adaptive
 They can change in response to you.
 
 Typical contexts of ambient intelligence work environment may include:
@@ -102,7 +97,7 @@ environmental—and with lifelong learning.
 
 - Be made easy to live with and controllable by ordinary people.
 
-# As a result of maturing AmI research, the resulting technologies promise to
+## As a result of maturing AmI research, the resulting technologies promise to
 revolutionize daily human life by making people’s surroundings flexible and
 adaptive.
 

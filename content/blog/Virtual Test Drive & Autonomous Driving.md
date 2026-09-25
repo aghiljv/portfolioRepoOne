@@ -35,8 +35,7 @@ leveraged to our current needs.
 
 Let’s go through some of them.
 
-**1. Cost Saving**
-
+## 1. Cost Saving
 ![costSaving](/assets/images/blog/050720/costSaving.jpg)
 
 A fully equipped autonomous vehicle may cost around half a million dollars.
@@ -49,8 +48,7 @@ physically on the road though. But now, the algorithm would have learned so
 much from the virtual environments before it even hits the road. Money will be
 saved by reducing number of prototypes in effect.
 
-**2. Distance Coverage**
-
+## 2. Distance Coverage
 ![distanceCoverage](/assets/images/blog/050720/distanceCoverage.jpg)
 
 Back in 2018, the commonly accepted number of 1 Billion miles was supposed to
@@ -61,8 +59,7 @@ number is over 10 Billion miles. Now, if they had only relied on the testing
 on public roads and followed through with the same rate, it would have taken
 around roughly them around 5.5 centuries to reach the 1st Billion.
 
-**3. More Scenarios to learn from**
-
+## 3. More Scenarios to learn from
 ![moreScenarios](/assets/images/blog/050720/moreScenarios.jpg)
 
 We could test them on real roads, if you only need to check a few use cases.
@@ -76,8 +73,7 @@ pedestrians? What of children dressed as pumpkins out for a walk in Halloween?
 These scenarios are to be considered but might not be encountered in the real
 world.
 
-**4. Safety**
-
+## 4. Safety
 ![safety](/assets/images/blog/050720/safety.jpg)
 
 There is a high probability of the vehicle not detecting a person or an animal

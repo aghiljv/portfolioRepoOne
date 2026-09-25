@@ -15,8 +15,7 @@ Best practices are a set of empirically proven approaches to software
 development. When used in combination they strike at the root causes of
 software development problems. Lets have a look at some of the important ones.
 
-**1. Manage Requirements**
-
+## 1. Manage Requirements
 ![components](/assets/images/blog/140920/components.jpg)
 
 The user’s own understanding of the requirements will evolve over time. That
@@ -26,8 +25,7 @@ an agreement with the user on what the software should do, not how to do it.
 That is, after all, your job. Also always maintain forward and backward
 traceability of the requirements.
 
-**2. Use Component-based Architecture**
-
+## 2. Use Component-based Architecture
 ![control](/assets/images/blog/140920/control.jpg)
 
 The use of components improves the maintainability and extensibility
@@ -35,8 +33,7 @@ phenomenally. Almost all of the trending frameworks now allow and promote
 component-based architecture. This will also help in clean division of work
 among teams. Also, component-based architecture makes the reuse possible.
 
-**3. Develop Iteratively**
-
+## 3. Develop Iteratively
 ![iterative](/assets/images/blog/140920/iterative.jpg)
 
 Always create objective milestones while creating a software. That will help
@@ -47,8 +44,7 @@ from making drastic changes at last while helping the engineer make sure
 he/she is on track. Goes without saying that the testing and integration will
 be and should be continuous.
 
-**4. Verify Software Quality**
-
+## 4. Verify Software Quality
 ![manage](/assets/images/blog/140920/manage.jpg)
 
 What is quality anyway? It is the characteristic of producing a product which
@@ -57,8 +53,7 @@ measure. Once deployed, software issues are significantly costly to repair.
 So, it would be wise to develop functionality, performance and reliability
 test suites for every iteration.
 
-**5. Control Changes to Software**
-
+## 5. Control Changes to Software
 ![verify](/assets/images/blog/140920/verify.jpg)
 
 Without explicit control while developing as a team, everything becomes chaos.

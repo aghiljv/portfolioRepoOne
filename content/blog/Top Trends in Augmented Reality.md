@@ -16,8 +16,7 @@ Google, Apple, Facebook and Amazon with serous commitments , commercial
 support is definitely strong for AR. The installed user base for AR, this time
 last year was over 1 billion which is only going to go north.
 
-**1. Automotive Industry**
-
+## 1. Automotive Industry
 ![arAutomotive](/assets/images/blog/010620/arAutomotive.jpg)
 
 Heads-up displays have been a fixture in military aerospace for decades, but
@@ -31,8 +30,7 @@ the possibilities with which AR can revolutionize the Automotive Industry.
 Designing, Planning, Testing, Quality Assurance, etc. are some of the areas
 that could easily adopt the benefits and it surely doesn't stop there.
 
-**2. Mobile AR**
-
+## 2. Mobile AR
 ![arMobile](/assets/images/blog/010620/arMobile.jpg)
 
 Since the introduction of Google’s ARCore and Apple’s ARKit Software
@@ -44,8 +42,7 @@ ARCore is also growing rapidly bringing in new features more often. The
 competition for dominance can only benefit the developers and undoubtedly the
 end users.
 
-**3. WebAR**
-
+## 3. WebAR
 ![arNavigation](/assets/images/blog/010620/arNavigation.jpg)
 
 Instead of needing to use specialized apps, users can simply log on to
@@ -54,8 +51,7 @@ Mozilla are engaged with WebAR in order to bring AR solutions to Chrome and
 Firefox respectively, though the prior is far ahead. Apple, Samsung and
 Microsoft web browser offerings are also rapidly adopting the WebAR standards.
 
-**4. Shopping**
-
+## 4. Shopping
 ![arShopping](/assets/images/blog/010620/arShopping.jpg)
 
 At least 100 million users were expected to utilize AR-enabled shopping by
@@ -70,8 +66,7 @@ just because it is convenient for the parties involved, but also because of
 the new social distancing norms. Virtual assistants will also significantly
 change the shopping experience.
 
-**5. Navigation**
-
+## 5. Navigation
 ![arWeb](/assets/images/blog/010620/arWeb.jpg)
 
 This is the obvious one. AR can not only be used for heads up displays in

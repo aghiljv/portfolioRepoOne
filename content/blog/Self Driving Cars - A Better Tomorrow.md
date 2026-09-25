@@ -20,8 +20,7 @@ coming years. If that happens, autonomous vehicles have the potential to
 improve our world and make everyday life that little bit easier. Here are five
 ways I think society will benefit from autonomous cars.
 
-**1. Easier Parking**
-
+## 1. Easier Parking
 ![commute](/assets/images/blog/030820/commute.jpg)
 
 It's also hoped that autonomous vehicles will improve parking in congested
@@ -38,8 +37,7 @@ curb-side passenger loading zones. In other words, the buildings of the future
 may no longer be flanked by huge, ugly car parks, and will instead favour
 dedicated areas for drop-offs and pick-ups.
 
-**2. Emission Reduction**
-
+## 2. Emission Reduction
 ![domesticTravel](/assets/images/blog/030820/domesticTravel.jpg)
 
 In the future, with the majority of self-driving vehicles being electric or
@@ -57,8 +55,7 @@ conclusion. As a society, we’ll need to rethink our attitude towards car
 ownership if we’re to reap the full environmental benefits of autonomous
 vehicles.
 
-**3. Cutting domestic air travel**
-
+## 3. Cutting domestic air travel
 ![emission](/assets/images/blog/030820/emission.jpg)
 
 Volvo’s 360c concept car, which was unveiled in 2018, provides a glimpse of a
@@ -74,8 +71,7 @@ the stress and exhaustion of plane travel. Particularly for journeys that
 could be made overnight, this vision could seriously disrupt the travel
 industry – and cut the carbon footprint associated with travel.
 
-**4. Making our roads safer**
-
+## 4. Making our roads safer
 ![parking](/assets/images/blog/030820/parking.jpg)
 
 While there have been some high-profile cases of autonomous vehicles being
@@ -89,8 +85,7 @@ would take human error out of the equation, thereby making our roads safer not
 just for drivers, but also passengers, cyclists, and pedestrians. For that
 reason, the NHTSA has championed the safety benefits of autonomous vehicles.
 
-**5. Making the daily commute more bearable**
-
+## 5. Making the daily commute more bearable
 When we reach the point where human intervention behind the wheel is no longer
 needed, autonomous vehicles will drastically improve the daily commute.
 Imagine, instead of sitting behind the wheel, you’ll be able to stretch out in

@@ -52,8 +52,7 @@ Savings also take the form of:
 
 - Time savings.
 
-**3. Delivering Results to a Wide Range of Industries**
-
+## 3. Delivering Results to a Wide Range of Industries
 Continued learning and increased efficiency are staples for any company or
 institution worth its salt. Absorbing material quickly, optimising
 application, and streamlining interaction/workflow directly influences the
@@ -69,8 +68,7 @@ VR is already making headway in a range of industries such as:
 
 - Corporate Training.
 
-**4. Appealing to a Variety of Learning Styles**
-
+## 4. Appealing to a Variety of Learning Styles
 Classic teaching and training methods convey content to students according to
 the instructor’s preferred style of learning. These styles are classified as
 visual, auditory, tactical, and kinaesthetic. But what if multiple styles of
@@ -84,8 +82,7 @@ the four classical learning styles. Among education specialists in particular,
 there is universal agreement on VR technology’s effectiveness and potential to
 breathe new life into traditional teaching methods.
 
-**5. Eliminating Risk and Safety Concerns**
-
+## 5. Eliminating Risk and Safety Concerns
 Medical students need to practice procedures without potentially harming a
 patient through inexperience, or even curiosity. Firefighters and military
 personnel need to learn how to respond in dangerous situations without risking

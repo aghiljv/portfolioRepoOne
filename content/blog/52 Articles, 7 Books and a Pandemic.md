@@ -19,8 +19,7 @@ also had time, to find new hobbies, embrace existing ones, learn something new, 
 involved writing articles, reading the books that I never thought I had time to before and learning some new
 technologies.
 
-**Writing Articles. Sort of...**
-
+## Writing Articles. Sort of...
 On April 6, 2020, after the start of lock-down in India, I published my first article on LinkedIn. Then another on
 the next week and then another and so on, which of course lead to the 52 (53 including this one) articles in the
 end.
@@ -39,8 +38,7 @@ At first, it was very easy to find the topics for the articles. But I too faced 
 bold to call myself a writer, even though there there were plenty of topics - old and new, to write about. But
 somehow, every week, I turned up with a topic resulting from random web browsing or conversation with my friends.
 
-**Building a personal website.**
-
+## Building a personal website.
 Even before all of this, I was working on building myself an online portfolio. After all, I am a software developer,
 who happens to know how to build a website and have worked on several. This would be a testimony of my ability to do
 the same.
@@ -55,8 +53,7 @@ the articles that I publish here on LinkedIn.
 
 ![pcpic](/assets/images/blog/060421/pcpic.jpg)
 
-**Assembling a custom PC.**
-
+## Assembling a custom PC.
 I have had used many desktops and laptops in the past, but not once anything with the components which I have chosen
 and built from scratch. It was always a laptop on sale or a configuration which was determined to be the a good
 build, by somebody else. Now, I had time (a lot of it) and money to do so.
@@ -66,14 +63,12 @@ myself.
 
 ![site](/assets/images/blog/060421/site.jpg)
 
-**Learning**
-
+## Learning
 As long as there are open online course providers to get me courses for free or on a good deal, I was and am ready to
 learn something new anytime. YouTube, LinkedIn Learning and Udemy were extremely helpful in fulfilling these
 requirements.
 
-**Books. Books. Books...**
-
+## Books. Books. Books...
 Reading to me was habit, that eventually turned in to a hobby, with time. And now, I had lots of time. I am proud to
 say that, I changed the hobby to a routine now. For most of last year, I was busy building my PC and my website
 among other things. But now, I find at least, 1 hour to read, everyday. Just this year, I was able to read 6 (7
@@ -93,8 +88,7 @@ Some of the books include
 
 All of these insightful books has helped me to gain a new outlook towards the world.
 
-**New Networks**
-
+## New Networks
 During this time, I was able to connect, interact and talk with a lot of remarkable people on LinkedIn. These
 connections eventually lead to fruitful discussions, lot of webinars and helped me to learn many things that I would
 otherwise not have.
@@ -102,8 +96,7 @@ otherwise not have.
 It helped me gain more insights to the realms of Extended Reality(XR), automotive industry and computer hardwares to
 name a few.
 
-**Take care of yourselves.**
-
+## Take care of yourselves.
 All these pandemic inevitably got me thinking about my own mortality and got me to take care of myself more. So many
 people have talked about this on various platforms and especially on LinkedIn and I do agree with them. Everybody
 has to take care of themselves for a change. Sleepless nights and working longer hours is not something to be
@@ -116,14 +109,13 @@ as good as someone else. Trust me, I have been there. Well guess what? There was
 something that you do (not necessarily always and at everything). But what we can do (or what i do), is try to learn
 something new whenever possible and better ourselves gradually. Everybody has their own pace.
 
-**The world is not in your books and maps, it's out there.**
-
+## The world is not in your books and maps, it's out there.
 And when finally when the lock-downs were over and it was relatively safe to go out, I was lucky to go on some short
 trips with my friends as well.
 
 ![treesandlake](/assets/images/blog/060421/treesandlake.jpg)
 
-# The pandemic is still not over and we still cannot let our guard down. So, until things get back to what it was
+## The pandemic is still not over and we still cannot let our guard down. So, until things get back to what it was
 (also after), hopefully sooner than later, take care of yourselves, learn and explore new things and places and stay
 safe.
 

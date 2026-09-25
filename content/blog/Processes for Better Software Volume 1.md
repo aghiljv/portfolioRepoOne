@@ -18,8 +18,7 @@ only creating good software, but also a reputation for themselves.
 They are termed good practices and we will go through some of them today,
 which by following, has helped me personally to create better software.
 
-**1. Planning**
-
+## 1. Planning
 ![commenting](/assets/images/blog/240820/commenting.jpg)
 
 One should always have a plan of action while developing, no matter which
@@ -30,8 +29,7 @@ application, you should consider the requirements beforehand and analyze which
 technologies and frameworks are apt for those and then start the project, not
 on the fly.
 
-**2. Modularising**
-
+## 2. Modularising
 ![frameworks](/assets/images/blog/240820/frameworks.jpg)
 
 My favorite OOP concept. Files/classes/functions/methods should be kept as
@@ -40,8 +38,7 @@ and certainly nothing less. This not only ensures and increases the
 readability of the entire code but also helps in scaling the application in
 the future.
 
-**3. Commenting and documenting**
-
+## 3. Commenting and documenting
 ![modularising](/assets/images/blog/240820/modularising.jpg)
 
 This might certainly be the most overlooked part of development. How many of
@@ -52,8 +49,7 @@ have had incorporated necessary comments and prepared a proper documentation,
 you’d have a much easier job of understanding what it was and how you might be
 able to improve it.
 
-**4. Writing tests**
-
+## 4. Writing tests
 ![planning](/assets/images/blog/240820/planning.jpg)
 
 Test driven development should come naturally to every software engineer. You
@@ -66,8 +62,7 @@ bug/bugs might only be found in production. Now, I am not saying just by
 writing tests, you can create a completely bug free software, but it will
 certainly help you bring down their numbers significantly.
 
-**5. Making use of frameworks**
-
+## 5. Making use of frameworks
 ![tests](/assets/images/blog/240820/tests.jpg)
 
 Maybe you are the fan of creating everything from scratch and there is

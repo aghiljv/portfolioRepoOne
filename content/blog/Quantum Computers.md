@@ -114,7 +114,7 @@ molecules, they often lack accuracy. So why not simulate quantum physics with
 actual quantum physics? Quantum simulations could provide new insights on
 proteins that might revolutionize medicine.
 
-# We still have no idea where the limits of quantum computers are and but it
+## We still have no idea where the limits of quantum computers are and but it
 will revolutionize the industry for sure.
 
 Disclaimer : The views and opinions expressed in the article belong solely to

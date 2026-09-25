@@ -35,8 +35,7 @@ process.
 That being said, here are 5 frameworks that I think are the best int the
 market.
 
-**1. ReactJS**
-
+## 1. ReactJS
 ![angular](/assets/images/blog/040520/angular.png)
 
 ReactJS is an effective open-source Javascript Library used for making
@@ -51,8 +50,7 @@ numerous libraries, and improved support process.
 
 Notable users : Facebook, Netflix.
 
-**2. VueJS**
-
+## 2. VueJS
 ![ember](/assets/images/blog/040520/ember.png)
 
 One of he most celebrated and my personal favourite VueJS was made by Evan You
@@ -66,8 +64,7 @@ as it enhances the already existing tremendous features of VueJS.
 
 Notable users : Adobe, Behance.
 
-**3. Angular**
-
+## 3. Angular
 ![react](/assets/images/blog/040520/react.png)
 
 Angular is one of the most proficient and well-known JavaScript frameworks
@@ -81,8 +78,7 @@ style, enormous condition, and top-notch code age.
 
 Notable users : Google, Microsoft.
 
-**4. SvelteJS**
-
+## 4. SvelteJS
 ![svelte](/assets/images/blog/040520/svelte.png)
 
 SvelteJS, an emerging framework, is similar to JavaScript frameworks such as
@@ -97,8 +93,7 @@ on a conventional framework.
 
 Notable users : NY Times, Razorpay.
 
-**5. EmberJS**
-
+## 5. EmberJS
 ![vue](/assets/images/blog/040520/vue.png)
 
 EmberJS is an open-source front-end JavaScript framework that enables software

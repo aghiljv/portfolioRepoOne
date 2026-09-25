@@ -18,7 +18,7 @@ possible.
 
 There are a number of things you can do to optimize your web application for SEO. Some of them include the following.
 
-# Use relevant keywords throughout your web application
+## Use relevant keywords throughout your web application
 
 ![keywords](/assets/images/blog/231023/keywords.jpg)
 
@@ -30,25 +30,25 @@ meta descriptions, header tags, and body content of your pages.
 
 Some tips for choosing and using keywords:
 
-### Do your research
+#### Do your research
 
 Use keyword research tools to find keywords that are relevant to your business and have a high search volume.
 
-### Be specific
+#### Be specific
 
 Don't use generic keywords that apply to a wide range of businesses. Instead, focus on specific keywords that are
 relevant to your specific niche.
 
-### Use long-tail keywords
+#### Use long-tail keywords
 
 Long-tail keywords are more specific and less competitive than short-tail keywords.
 
-### Use keywords naturally
+#### Use keywords naturally
 
 Don't keyword stuff your content with keywords. Instead, use keywords naturally and in a way that makes sense for your
 content.
 
-# Make sure your web application is well-structured and easy to navigate
+## Make sure your web application is well-structured and easy to navigate
 
 ![structure](/assets/images/blog/231023/structure.jpg)
 
@@ -66,7 +66,7 @@ Some things to keep in mind while making your web application well-structured an
 
 - Make sure your web application is mobile-friendly.
 
-# Create high-quality content that is relevant to your target audience
+## Create high-quality content that is relevant to your target audience
 
 ![audience](/assets/images/blog/231023/audience.jpg)
 
@@ -86,7 +86,7 @@ Follow these guidelines for creating high-quality content:
 
 - Promote your content on social media and other websites.
 
-# Get backlinks from other high-quality websites
+## Get backlinks from other high-quality websites
 
 ![websites](/assets/images/blog/231023/websites.jpg)
 
@@ -99,8 +99,7 @@ There are a number of ways to get backlinks from other high-quality websites. He
 
 - Reach out to other website owners and ask
 
-## Keep in mind that search engines want to deliver the best results to their users, so focus on creating high-quality
-content that is relevant to your target audience.
+### Keep in mind that search engines want to deliver the best results to their users, so focus on creating high-quality content that is relevant to your target audience.
 
 Disclaimer : The views and opinions expressed in the article belong solely to the author, and not necessarily to the
 author's employer, organisation, committee or other group or individual.

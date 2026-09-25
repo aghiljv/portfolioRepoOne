@@ -96,7 +96,7 @@ choices as third -party game engines would have been Unreal Engine and Unity
 
 - Ubisoft - AnvilNext
 
-# Game engines are not just for creating games now. They have taken over
+## Game engines are not just for creating games now. They have taken over
 various areas such as high fidelity simulations, real-time graphics rendering
 in movies and so much more.
 

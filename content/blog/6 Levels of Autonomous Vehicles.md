@@ -22,13 +22,11 @@ With the media coverage, it may feel like autonomous vehicles are already
 among us, they are not quite as smart as portrayed in pop culture yet. Let’s
 examine the levels of autonomous vehicles.
 
-**1. Level 0 – No Automation**
-
+## 1. Level 0 – No Automation
 This is your ordinary car, sometimes equipped with cruise control and that’s
 it. Most of the vehicles on the road still fall under this category.
 
-**2. Level 1 – Driver Assistance**
-
+## 2. Level 1 – Driver Assistance
 This is the level in which you will find the adaptive cruise control and lane
 keep assist to help the driver. Adaptive cruise control will keep a safe
 distance between the vehicle you are in and the vehicle ahead with the help of
@@ -38,8 +36,7 @@ lane if you deviate from it. Mind you, these systems are in place to assist
 the driver. It still requires the driver to be in control. 2018 Toyota Corolla
 and 2018 Nissan Sentra are examples of Level 1 cars.
 
-**3. Level 2 – Partial Automation**
-
+## 3. Level 2 – Partial Automation
 This is the level where it gets interesting. The cars in this level can assist
 in controlling speed as well as steering. But the driver must have hands on
 the wheel and be ready to take control at any given moment. It will help you
@@ -47,8 +44,7 @@ keep centred on a lane. Also, it will help with stop-and-go traffic by
 maintaining distance between you and the vehicle in front of you. Tesla
 Autopilot, Volvo Pilot Assist, Audi Traffic Jam assist are some examples.
 
-**4. Level 3 – Conditional Automation**
-
+## 4. Level 3 – Conditional Automation
 ![level3](/assets/images/blog/150620/level3.jpg)
 
 This is the level that is going to be available to the general public.
@@ -59,8 +55,7 @@ certain speed. Drivers can take their hands off the wheel. Still a driver is
 required behind the wheel, should the prior mentioned ideal conditions are not
 present.
 
-**5. Level 4 – High Automation**
-
+## 5. Level 4 – High Automation
 ![level4](/assets/images/blog/150620/level4.jpg)
 
 Level 4 autonomous vehicles can drive themselves without human interactions.
@@ -72,8 +67,7 @@ permissions to give ride to passengers in the Silicon Valley and Arizona. They
 are also in the process of testing vehicles capable of driving in most
 environments and road conditions.
 
-**6. Level 5 – Full Automation**
-
+## 6. Level 5 – Full Automation
 ![level5](/assets/images/blog/150620/level5.jpg)
 
 In this level, we arrive at true driverless cars. Level 5 vehicles should be

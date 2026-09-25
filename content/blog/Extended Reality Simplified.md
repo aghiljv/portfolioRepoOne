@@ -20,8 +20,7 @@ as if you were actually on-site or head to lunch in some faraway land. By
 what it is today. This tremendous growth could mean the realities of our 2030
 lives are beyond our imagination’s ability to grasp.
 
-**What is extended reality (XR)?**
-
+## What is extended reality (XR)?
 XR is an emerging umbrella term for all the immersive technologies. The ones
 we already have today—augmented reality (AR), virtual reality (VR), and mixed
 reality (MR) plus those that are still to be created. All immersive
@@ -31,8 +30,7 @@ revealed that more than 60% of respondents believed XR will be mainstream in
 the next five years. To get a better picture of XR, let’s review each of the
 existing technologies that exist today.
 
-**Virtual reality (VR)**
-
+## Virtual reality (VR)
 ![arXr](/assets/images/blog/100820/arXr.jpg)
 
 In virtual reality, users are fully immersed in a simulated digital
@@ -44,8 +42,7 @@ entertainment industry were early adopters of this technology; however,
 companies in several industries such as healthcare, construction, engineering,
 the military, and more are finding VR to be very useful.
 
-**Augmented reality (AR)**
-
+## Augmented reality (AR)
 ![mrXr](/assets/images/blog/100820/mrXr.jpg)
 
 In augmented reality, virtual information and objects are overlaid on the real
@@ -57,8 +54,7 @@ them. The most well-known examples of AR are the Pokémon GO game that overlays
 digital creatures onto the real world or Snapchat filters that put digital
 objects such as hats or glasses onto your head.
 
-**Mixed reality (MR)**
-
+## Mixed reality (MR)
 ![vrXr](/assets/images/blog/100820/vrXr.jpg)
 
 In mixed reality, digital and real-world objects co-exist and can interact

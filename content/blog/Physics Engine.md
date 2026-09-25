@@ -20,14 +20,12 @@ watercraft and land vehicles.
 
 There are generally two types of physics engines.
 
-**High-precision physics engines**
-
+## High-precision physics engines
 High-precision physics engines require more processing power to calculate very
 precise physics and are usually used by scientists and computer animated
 movies.
 
-**Real-time physics engines**
-
+## Real-time physics engines
 Real-time physics engines are used in video games and other forms of
 interactive computing. They use simplified calculations and decreased accuracy
 to compute in time for the game to respond at an appropriate rate for game
@@ -49,8 +47,7 @@ as the flow of fire and explosions through the air.
 
 Some applications of game physics engine are the following.
 
-**Collision detection**
-
+## Collision detection
 Most objects in games are represented by two separate meshes or shapes. One of
 these meshes is the highly complex and detailed shape visible to the player in
 the game, such as a vase. For purpose of speed, a second, simplified invisible
@@ -61,8 +58,7 @@ may be a bounding box, sphere or convex hull. Engines that use bounding boxes
 or bounding spheres as the final shape for collision detection are considered
 extremely simple.
 
-**Brownian motion**
-
+## Brownian motion
 In the real world, there is a constant Brownian motion jitter to all particles
 in our universe as the forces push back and forth against each other. For a
 game physics engine, such constant active precision is unnecessarily wasting
@@ -72,7 +68,7 @@ on objects that have not moved a particular distance within a certain amount
 of time. The object will remain frozen until physics processing reactivates
 for the object after collision occurs with some other active physical object.
 
-# Game physics engines enhance the player's enjoyment by simulating the
+## Game physics engines enhance the player's enjoyment by simulating the
 complex physical characteristics of a virtual world while scientific physics
 engines use an approximation of real-world physics to quickly simulate complex
 world interactions.

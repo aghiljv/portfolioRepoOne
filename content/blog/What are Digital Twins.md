@@ -23,8 +23,7 @@ it and the dynamics of how that device is put together.
 Done correctly, a digital twin will influence how design, build and operations
 of a device are constructed in a single life-cycle.
 
-**Design**
-
+## Design
 ![analytics](/assets/images/blog/261020/analytics.jpg)
 
 The design phase is where the engineering tooling comes together, bringing
@@ -34,8 +33,7 @@ different elements, being able to coordinate and collaborate into a single
 facility of operational oriented design that is designed to bring out the
 highest quality product.
 
-**Build**
-
+## Build
 ![build](/assets/images/blog/261020/build.jpg)
 
 In the build phase, it is about understanding how the devices that make the
@@ -43,8 +41,7 @@ product influence the product’s tolerances, stresses and designs. It’s about
 better manufacturing to drive the correct tolerances and correct outcomes that
 you want to see for the product that you are actually making.
 
-**Operations**
-
+## Operations
 ![data](/assets/images/blog/261020/data.jpg)
 
 The digital twin facilitates the actual operation of the product as well.
@@ -57,8 +54,7 @@ learned and the re-calibrations takes place along the way.
 
 Now, there are essential capabilities that must be present in a digital twin.
 
-**Analytics**
-
+## Analytics
 ![design](/assets/images/blog/261020/design.jpg)
 
 First, you have to apply analytics at every single step. The amount of
@@ -67,8 +63,7 @@ to a complex device such as an automobile or an aircraft is staggering.
 Analytics has to be real-time, but has to be operational, has to have quality,
 it has to be predictive oriented in its nature.
 
-**Open and Federated Data**
-
+## Open and Federated Data
 ![industry](/assets/images/blog/261020/industry.jpg)
 
 The data that comes from the digital twin need to be open, you have to be able
@@ -80,8 +75,7 @@ dynamic model that you are going to shift as you go through the design, the
 build and the operation phase of what you do with the life-cycle of that
 product.
 
-**Industry Context**
-
+## Industry Context
 ![operations](/assets/images/blog/261020/operations.jpg)
 
 You may actually use the same product differently in two different industries
@@ -92,7 +86,7 @@ the industry context of how that device is going to be used. So, the digital
 twin not only captures the engineering aspects, but it also captures the
 industry context, the dynamics of how that product is used at the same time.
 
-# The digital representation provides both the elements and the dynamics of
+## The digital representation provides both the elements and the dynamics of
 how an Internet of things (IoT) device operates and lives throughout its life
 cycle
 

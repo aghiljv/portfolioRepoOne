@@ -22,23 +22,19 @@ front-end development world.
 
 Here are some of the key benefits of micro frontends:
 
-**Scalability**
-
+## Scalability
 Micro frontends can be scaled independently, which means that the overall application can be scaled more easily and
 efficiently.
 
-**Resilience**
-
+## Resilience
 If one micro frontend fails, the other micro frontends can continue to operate. This makes the overall application
 more resilient to failures.
 
-**Ease of development and deployment**
-
+## Ease of development and deployment
 Micro frontends can be developed and deployed independently, which makes the development process more agile and
 efficient.
 
-**Team autonomy**
-
+## Team autonomy
 Micro frontends can be owned and developed by different teams, which gives teams more autonomy and flexibility.
 
 Micro frontends can be implemented in a number of ways. One common approach is to use a container orchestration
@@ -73,7 +69,7 @@ If you are considering using micro frontends in your next front-end project, her
 
 - Micro frontends require careful planning and coordination between teams.
 
-# Micro frontends are a promising new approach to front-end development that can offer a number of benefits for large
+## Micro frontends are a promising new approach to front-end development that can offer a number of benefits for large
 and complex applications.
 
 Disclaimer : The views and opinions expressed in the article belong solely to the author, and not necessarily to the

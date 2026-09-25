@@ -36,8 +36,7 @@ we all are going through, the virtual world does have it advantages.
 So, here is what I think that are the reasons for someone to consider to
 choose Unity 3D for their particular set of requirements.
 
-**1. Cross Platform**
-
+## 1. Cross Platform
 ![documentation](/assets/images/blog/110520/documentation.jpg)
 
 One of the biggest advantages of using Unity3D is you are not confined to a
@@ -46,8 +45,7 @@ platforms across mobile, Console, Desktop, TV, AR, VR, MR, XR and the Web.
 Imagine to code and develop for once and run it on all the top platforms out
 there. That is the power Unity 3D provides you.
 
-**2. Documentation**
-
+## 2. Documentation
 ![editor](/assets/images/blog/110520/editor.jpg)
 
 For developers that are just starting out, documentations are easy to
@@ -55,8 +53,7 @@ understand. Unity 3D does provide that and in detail. It includes explanation
 of every single topic, no matter big or small. It is undoubtedly, must have
 feature for not just game engines, but all software tools.
 
-**3. Debugging**
-
+## 3. Debugging
 The Unity 3D has a Play mode, which the developers can make use of for rapid
 iterative editing. When you press the "Play" button in the editor, you are
 inside your game. At any point of time, if you encounter a bug or feel that
@@ -64,8 +61,7 @@ any functionality isn’t working as you expected, you can pause it and alter
 the code as per your liking and can see the results instantly. You can even
 cruise through your game frame by frame and pinpoint the problems.
 
-**4. All-in-one Editor**
-
+## 4. All-in-one Editor
 ![platforms](/assets/images/blog/110520/platforms.jpg)
 
 Loaded with features and with tremendous flexibility, it comes with a powerful
@@ -74,8 +70,7 @@ like real-time global illumination, advanced memory profiling, easily
 modifiable animations, play mode, timeline storytelling tools and a whole lot
 of other features for your aid, you would rarely go wrong with this one.
 
-**5. Unity Analytics**
-
+## 5. Unity Analytics
 Unity 3D has built-in analytics which you can find easily in the editor. It
 gives you information that can be used to tweak the workflow and offer an
 awesome experience for the users. It does provide key insights about what you

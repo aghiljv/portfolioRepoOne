@@ -19,8 +19,7 @@ these principles is to make software designs more understandable, easier to
 maintain and easier to extend. As a software engineer, these 5 principles are
 essential to know!
 
-**S — Single responsibility principle**
-
+## S — Single responsibility principle
 In programming, the Single Responsibility Principle states that every module
 or class should have responsibility over a single part of the functionality
 provided by the software. You may have heard the quote: “Do one thing and do
@@ -29,8 +28,7 @@ Principles of Object Oriented Design, Robert C. Martin defines a
 responsibility as a ‘reason to change’, and concludes that a class or module
 should have one, and only one, reason to be changed.
 
-**O — Open/closed principle**
-
+## O — Open/closed principle
 In programming, the open/closed principle states that software entities
 (classes, modules, functions, etc.) should be open for extensions, but closed
 for modification. If you have a general understanding of OOP, you probably
@@ -38,8 +36,7 @@ already know about polymorphism. We can make sure that our code is compliant
 with the open/closed principle by utilizing inheritance and/or implementing
 interfaces that enable classes to polymorphically substitute for each other.
 
-**L — Liskov substitution principle**
-
+## L — Liskov substitution principle
 This one is probably the hardest one to wrap your head around when being
 introduced for the first time. In programming, the Liskov substitution
 principle states that if S is a subtype of T, then objects of type T may be
@@ -53,8 +50,7 @@ mathematically as
 More generally it states that objects in a program should be replaceable with
 instances of their subtypes without altering the correctness of that program.
 
-**I — Interface segregation principle**
-
+## I — Interface segregation principle
 This principle is fairly easy to comprehend. In fact, if you’re used to using
 interfaces, chances are that you’re already applying this principle. If not,
 it’s time to start doing it! In programming, the interface segregation
@@ -63,8 +59,7 @@ not use. Put more simply: Do not add additional functionality to an existing
 interface by adding new methods. Instead, create a new interface and let your
 class implement multiple interfaces if needed.
 
-**D - Dependency inversion principle**
-
+## D - Dependency inversion principle
 In programming, the dependency inversion principle is a way to decouple
 software modules. This principle states that
 
@@ -81,7 +76,7 @@ one might see the need for. Typically, dependency injection is used simply by
 ‘injecting’ any dependencies of a class through the class’ constructor as an
 input parameter.
 
-# By applying these 5 principles that make the SOLID acronym, we get to
+## By applying these 5 principles that make the SOLID acronym, we get to
 benefit from a reusable, maintainable, scalable and easy testable codebase.
 
 Disclaimer : The views and opinions expressed in the article belong solely to the

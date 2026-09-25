@@ -24,8 +24,7 @@ Reality or MR is Augmented Reality(AR) on steroids.
 
 So, where can we make use of the fairly new mixed reality.
 
-**1. Automotive**
-
+## 1. Automotive
 ![mr_architecture](/assets/images/blog/250520/mr_architecture.jpg)
 
 The leaders in automotive industry have been embracing the digital for a while
@@ -35,8 +34,7 @@ manufacturing, quality assurance, testing, validation, marketing, after-sales,
 etc. are some of its applications in the industry. It could also be used in
 training as well as implementing standard operating procedure.
 
-**2. Architecture**
-
+## 2. Architecture
 ![mr_automotive](/assets/images/blog/250520/mr_automotive.jpg)
 
 The architecture industry is no stranger to high fidelity 3D application. But
@@ -47,8 +45,7 @@ also be used in construction sites. It can and had helped the construction
 workers to implement the plans down to the detail with almost nothing lost in
 translation.
 
-**3. Medicine**
-
+## 3. Medicine
 ![mr_education](/assets/images/blog/250520/mr_education.jpg)
 
 This should be a given and with the current circumstances, mixed reality could
@@ -57,8 +54,7 @@ the surgeons having a trial run before a major surgery and even showing the
 vitals of patients during procedures, the applications can be virtually
 endless.
 
-**4. Education**
-
+## 4. Education
 ![mr_gaming](/assets/images/blog/250520/mr_gaming.jpg)
 
 Mixed reality can be complementing the standard curriculum. Graphics, video
@@ -68,8 +64,7 @@ memorable. This could help students experience historical events, exploring
 and learning much more details of the events and the area which they took
 place.
 
-**5. Gaming**
-
+## 5. Gaming
 ![mr_medicine](/assets/images/blog/250520/mr_medicine.jpg)
 
 The inevitable! The gaming industry is usually the first to adopt every

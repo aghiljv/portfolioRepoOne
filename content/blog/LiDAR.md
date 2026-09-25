@@ -35,24 +35,21 @@ organizations use helicopters, drones and airplanes for acquiring LiDAR data.
 LiDAR systems are divided into two types based on its functionality — Airborne
 LiDAR & Terrestrial LiDAR.
 
-**Airborne LiDAR**
-
+## Airborne LiDAR
 Airborne LiDAR is installed on a helicopter or drone for collecting data. As
 soon as it’s activated, Airborne LiDAR emits light towards the ground surface,
 which returns to the sensor immediately after hitting the object, giving an
 exact measurement of its distance. Airborne LiDAR is further divided into two
 types — Topological LiDAR and Bathymetric LiDAR.
 
-**Terrestrial LiDAR**
-
+## Terrestrial LiDAR
 Unlike Airborne, Terrestrial LiDAR systems are installed on moving vehicles or
 tripods on the earth surface for collecting accurate data points. These are
 quite common for observing highways, analysing infrastructure or even
 collecting point clouds from the inside and outside of buildings. Terrestrial
 LiDAR systems have two types — Mobile LiDAR and Static LiDAR.
 
-**How Does LiDAR Work?**
-
+## How Does LiDAR Work?
 LiDAR follows a simple principle — throw laser light at an object on the earth
 surface and calculate the time it takes to return to the LiDAR source. Given
 the speed at which the light travels (approximately 186,000 miles per second),
@@ -65,36 +62,32 @@ The distance of the object = (Speed of Light x Time of Flight)/ 2.
 LiDAR can be used to accomplish many developmental objectives, some of which
 are:
 
-**Oceanography**
-
+## Oceanography
 When the authorities want to know the exact depth of the ocean’s surface to
 locate any object in the case of a maritime accident or for research purposes,
 they use LiDAR technology to accomplish their mission. Other than locating
 objects, LiDAR is also used for calculating phytoplankton fluorescence and
 biomass in the ocean surface, which otherwise is very challenging.
 
-**Digital Elevation or Terrain Model**
-
+## Digital Elevation or Terrain Model
 Terrain elevations play a crucial role during the construction of roads, large
 buildings and bridges. LiDAR technology has x, y and z coordinates, which
 makes it incredibly easy to produce the 3D representation of elevations to
 ensure that concerned parties can draw necessary conclusions more easily.
 
-**Agriculture & Archaeology**
-
+## Agriculture & Archaeology
 Typical applications of LiDAR technology in the agriculture sector include
 analysis of yield rates, crop scouting and seed dispersions. Besides this, it
 is also used for campaign planning, mapping under the forest canopy, and more.
 
-**Consumer Vehicles**
-
+## Consumer Vehicles
 Automakers have begun to integrate LiDAR into Advanced Driver Assistance
 Systems (ADAS) in order to visualize the ever-changing environments their
 vehicles are immersed in. The resulting wealth of data from automotive
 platform incorporation can allow ADAS systems to make hundreds of
 carefully-calculated driving decisions each minute.
 
-# LiDAR on ADAS will ultimately guide our journey in delivering a true
+## LiDAR on ADAS will ultimately guide our journey in delivering a true
 fully-autonomous vehicle, without compromising safety.
 
 Disclaimer : The views and opinions expressed in the article belong solely to

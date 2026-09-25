@@ -22,7 +22,7 @@ just the use of semicolons, tabs vs. spaces or formatting. Most of these
 preferences and ideals are influenced by our environments, technologies we use
 and coworkers.
 
-## Coworkers
+### Coworkers
 
 ![coworkers](/assets/images/blog/051020/coworkers.jpg)
 
@@ -57,7 +57,7 @@ Also, if you are working with people who are significantly smarter, with more
 experience and cares about us and our code getting better, you will find
 yourself writing better code through time.
 
-## Environmental influences
+### Environmental influences
 
 ![environment](/assets/images/blog/051020/environment.jpg)
 
@@ -71,8 +71,7 @@ not get things done as quickly as you could have. Instead, you might write
 more tests or write less future legacy codes. Now the following are how the
 size of your team or company could influence your code.
 
-**Small Companies**
-
+## Small Companies
 **![big](/assets/images/blog/051020/big.jpg)
 
 You have to get things done. This could mean you writing less unit tests. The
@@ -85,8 +84,7 @@ You will deal with legacy code more. You might be writing code that might have
 to be thrown out completely and start over. Ideally you keep in mind that
 every chunk of code has a timeline and you should write it accordingly.
 
-**Big Companies**
-
+## Big Companies
 ![small](/assets/images/blog/051020/small.jpg)
 
 Horizontal organisational structures are rare in big companies. This means
@@ -105,7 +103,7 @@ CI/CD will just work if someone senior or more involved has done their job.
 You wouldn’t have to spend time with the hassles around the infrastructure.
 This could make you faster.
 
-# Good engineers who learns constantly will observe radical changes in the way
+## Good engineers who learns constantly will observe radical changes in the way
 they write code.
 
 Disclaimer : The views and opinions expressed in the article belong solely to the

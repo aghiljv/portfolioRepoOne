@@ -11,8 +11,7 @@ author:
     alt: Aghil Jose
 ---
 
-**1. Reduces Future Risks**
-
+## 1. Reduces Future Risks
 In end-to-end testing, the application is tested rigorously after every
 iteration and sprint. Thus, there are lesser chances of failure and risks in
 the future.
@@ -49,8 +48,7 @@ APIs and communication. Further, automating end-to-end testing allows
 you to quickly respond to changing business needs and adds greater agility
 to the entire testing project.
 
-**Tools of my choice are:**
-
+## Tools of my choice are:
 - Selenium
 
 - Cypress

@@ -8,11 +8,19 @@ const { data: page } = await useAsyncData(routePath.value, () =>
   queryCollection('blog').path(routePath.value).first()
 )
 if (!page.value) throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
-const { data: surround } = await useAsyncData(`${routePath.value}-surround`, () =>
-  queryCollectionItemSurroundings('blog', routePath.value, {
-    fields: ['description']
-  })
-)
+const { data: surround } = await useAsyncData(`${routePath.value}-surround`, async () => {
+  const posts = await queryCollection('blog')
+    .select('path', 'title', 'description', 'date')
+    .order('date', 'DESC')
+    .all()
+  const currentIndex = posts.findIndex(post => post.path === routePath.value)
+
+  if (currentIndex === -1) {
+    return []
+  }
+
+  return [posts[currentIndex - 1], posts[currentIndex + 1]] as unknown as Array<NonNullable<typeof posts[number]>>
+})
 
 const title = page.value?.seo?.title || page.value?.title
 const description = page.value?.seo?.description || page.value?.description
@@ -34,7 +42,9 @@ if (page.value.image) {
   })
 }
 
-const articleLink = computed(() => `${window?.location}`)
+const copyArticleLink = () => {
+  copyToClipboard(window.location.href, 'Article link copied to clipboard')
+}
 
 const formatDate = (dateString: string) => {
   return new Date(dateString).toLocaleDateString('en-US', {
@@ -103,7 +113,7 @@ const getWebpImage = (src: string) => {
             />
           </div>
         </div>
-        <UPageBody class="max-w-3xl mx-auto">
+        <UPageBody class="blog-content max-w-3xl mx-auto">
           <ContentRenderer
             v-if="page.body"
             :value="page"
@@ -115,7 +125,7 @@ const getWebpImage = (src: string) => {
               variant="link"
               color="neutral"
               label="Copy link"
-              @click="copyToClipboard(articleLink, 'Article link copied to clipboard')"
+              @click="copyArticleLink"
             />
           </div>
           <UContentSurround :surround />

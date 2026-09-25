@@ -90,8 +90,7 @@ better.
 But we can safely say that there is but one golden and universal design
 pattern – KISS (Keep It Simple, Stupid).
 
-** KISS (Keep It Simple, Stupid)**
-
+##  KISS (Keep It Simple, Stupid)
 ![kiss](/assets/images/blog/070920/kiss.jpg)
 
 Every new line of code that we write is a new potential thing which can go

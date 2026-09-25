@@ -78,8 +78,7 @@ from the developer's point of view, too, with a simpler model having emerged
 from the full ray pipelines first specified. This allows for easier
 implementation of some specific effects, particularly ray-traced shadows.
 
-**Advice for Developers**
-
+## Advice for Developers
 So, with two ray-tracing programming models for developers to target and still
 only one generation of shipping accelerators to try it out on, and with key
 parts of DXR and Vulkan ray tracing specified as completely
@@ -126,7 +125,7 @@ performance in idiomatic game-like settings? Absolutely, and we'd love to talk
 to anyone who wants to tackle that problem, since it's a big missing piece of
 the puzzle.
 
-# Real-time graphics has entered a new era with the advent of ray tracing,
+## Real-time graphics has entered a new era with the advent of ray tracing,
 which delivers more realistic scenes than ever before. But all current
 implementations centre around one vendor—and that raises issues, especially
 when the competitive field expands.
