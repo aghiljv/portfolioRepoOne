@@ -109,7 +109,7 @@ const getWebpImage = (src: string) => {
               v-if="getWebpImage(project.image)"
               :srcset="getWebpImage(project.image)"
               type="image/webp"
-            />
+            >
             <img
               :src="project.image"
               :alt="project.title"
