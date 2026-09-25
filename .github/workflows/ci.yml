@@ -39,7 +39,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Lint
-        run: pnpm run lint --fix
+        run: pnpm run lint
 
       - name: Typecheck
         run: pnpm run typecheck
@@ -47,10 +47,20 @@ jobs:
       - name: Generate Nuxt static site
         run: pnpm exec nuxi generate
 
-      - name: Copy all assets without overwriting built styles
+      - name: Copy public assets to static output
+        run: cp -R public/. .output/public/
+
+      - name: Copy Nuxt client assets to public output
         run: |
-          cp -rn public/. .output/public/
-          touch .output/public/.nojekyll
+          client_assets=$(find . -type d -path '*/.nuxt/dist/client' -print -quit)
+          test -n "$client_assets"
+          mkdir -p .output/public
+          cp -R "$client_assets"/. .output/public/
+
+      - name: Verify generated CSS assets
+        run: |
+          find .output/public -type f -name '*.css' -print
+          test -n "$(find .output/public -type f -name '*.css' -print -quit)"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
