@@ -28,16 +28,15 @@ useSeoMeta({
 
 defineOgImage('Portfolio', { title, description })
 
-// Helper to clean IPX prefixes and normalize the image path
-const getCleanImagePath = (src: string): string => {
+// Strips '/_ipx/.../' or '/ipx/.../' and size options from paths
+const getCleanImagePath = (src?: string): string => {
   if (!src) return ''
-  // Strips '/ipx/.../', '/_ipx/.../', or dynamic modifiers
+  // Replaces leading IPX path wrappers with a clean root relative slash
   const cleanPath = src.replace(/^(\/_?ipx\/[^/]+\/|\/_?ipx\/)/i, '/')
-  // Ensures a single leading slash
   return cleanPath.startsWith('/') ? cleanPath : `/${cleanPath}`
 }
 
-const getWebpImage = (src: string): string | undefined => {
+const getWebpImage = (src?: string): string | undefined => {
   const clean = getCleanImagePath(src)
   return /\.jpe?g$/i.test(clean) ? clean.replace(/\.jpe?g$/i, '.webp') : undefined
 }
