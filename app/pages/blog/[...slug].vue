@@ -8,11 +8,19 @@ const { data: page } = await useAsyncData(routePath.value, () =>
   queryCollection('blog').path(routePath.value).first()
 )
 if (!page.value) throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
-const { data: surround } = await useAsyncData(`${routePath.value}-surround`, () =>
-  queryCollectionItemSurroundings('blog', routePath.value, {
-    fields: ['description']
-  })
-)
+const { data: surround } = await useAsyncData(`${routePath.value}-surround`, async () => {
+  const posts = await queryCollection('blog')
+    .select('path', 'title', 'description', 'date')
+    .order('date', 'DESC')
+    .all()
+  const currentIndex = posts.findIndex(post => post.path === routePath.value)
+
+  if (currentIndex === -1) {
+    return []
+  }
+
+  return [posts[currentIndex - 1], posts[currentIndex + 1]] as unknown as Array<NonNullable<typeof posts[number]>>
+})
 
 const title = page.value?.seo?.title || page.value?.title
 const description = page.value?.seo?.description || page.value?.description
@@ -34,7 +42,9 @@ if (page.value.image) {
   })
 }
 
-const articleLink = computed(() => `${window?.location}`)
+const copyArticleLink = () => {
+  copyToClipboard(window.location.href, 'Article link copied to clipboard')
+}
 
 const formatDate = (dateString: string) => {
   return new Date(dateString).toLocaleDateString('en-US', {
@@ -42,6 +52,10 @@ const formatDate = (dateString: string) => {
     month: 'short',
     day: 'numeric'
   })
+}
+
+const getWebpImage = (src: string) => {
+  return /\.jpe?g$/i.test(src) ? src.replace(/\.jpe?g$/i, '.webp') : undefined
 }
 </script>
 
@@ -68,12 +82,21 @@ const formatDate = (dateString: string) => {
               {{ page.minRead }} MIN READ
             </span>
           </div>
-          <img
+          <picture
             v-if="page.image"
-            :src="page.image"
-            :alt="page.title"
-            class="rounded-lg w-full h-[300px] object-cover object-center"
-          />
+          >
+            <source
+              v-if="getWebpImage(page.image)"
+              :srcset="getWebpImage(page.image)"
+              type="image/webp"
+            />
+            <img
+              :src="page.image"
+              :alt="page.title"
+              loading="eager"
+              class="rounded-lg w-full h-[300px] object-cover object-center"
+            />
+          </picture>
           <h1 class="text-4xl text-center font-medium max-w-3xl mx-auto mt-4">
             {{ page.title }}
           </h1>
@@ -90,7 +113,7 @@ const formatDate = (dateString: string) => {
             />
           </div>
         </div>
-        <UPageBody class="max-w-3xl mx-auto">
+        <UPageBody class="blog-content max-w-3xl mx-auto">
           <ContentRenderer
             v-if="page.body"
             :value="page"
@@ -102,7 +125,7 @@ const formatDate = (dateString: string) => {
               variant="link"
               color="neutral"
               label="Copy link"
-              @click="copyToClipboard(articleLink, 'Article link copied to clipboard')"
+              @click="copyArticleLink"
             />
           </div>
           <UContentSurround :surround />

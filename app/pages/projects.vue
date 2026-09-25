@@ -27,6 +27,10 @@ useSeoMeta({
 })
 
 defineOgImage('Portfolio', { title, description })
+
+const getWebpImage = (src: string) => {
+  return /\.jpe?g$/i.test(src) ? src.replace(/\.jpe?g$/i, '.webp') : undefined
+}
 </script>
 
 <template>
@@ -88,7 +92,7 @@ defineOgImage('Portfolio', { title, description })
               {{ new Date(project.date).getFullYear() }}
             </span>
           </template>
-          <template #footer>
+          <!-- <template #footer>
             <ULink
               :to="project.url"
               class="text-sm text-primary flex items-center"
@@ -99,12 +103,20 @@ defineOgImage('Portfolio', { title, description })
                 class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"
               />
             </ULink>
-          </template>
-          <img
-            :src="project.image"
-            :alt="project.title"
-            class="object-cover w-full h-48 rounded-lg"
-          >
+          </template> -->
+          <picture>
+            <source
+              v-if="getWebpImage(project.image)"
+              :srcset="getWebpImage(project.image)"
+              type="image/webp"
+            />
+            <img
+              :src="project.image"
+              :alt="project.title"
+              loading="lazy"
+              class="object-cover w-full h-48 rounded-lg"
+            >
+          </picture>
         </UPageCard>
       </Motion>
     </UPageSection>

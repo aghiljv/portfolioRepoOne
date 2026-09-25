@@ -111,7 +111,9 @@ defineProps<{
             variant="ghost"
             class="gap-2"
             :to="global.available ? global.meetingLink : ''"
-            :label="global.available ? 'Available for new projects' : 'Not available at the moment'"
+            target="_blank"
+            rel="noopener noreferrer"
+            :label="global.available ? 'Open for new jobs' : 'Not open for new jobs'"
           >
             <template #leading>
               <span class="relative flex size-2">
@@ -129,7 +131,7 @@ defineProps<{
         </div>
       </Motion>
 
-      <div class="gap-x-4 inline-flex mt-4">
+      <!-- <div class="gap-x-4 inline-flex mt-4">
         <Motion
           v-for="(link, index) of footer?.links"
           :key="index"
@@ -153,10 +155,10 @@ defineProps<{
             v-bind="{ size: 'md', color: 'neutral', variant: 'ghost', ...link }"
           />
         </Motion>
-      </div>
+      </div> -->
     </template>
 
-    <UMarquee
+    <!-- <UMarquee
       pause-on-hover
       class="py-2 -mx-8 sm:-mx-12 lg:-mx-16 [--duration:40s]"
     >
@@ -186,6 +188,6 @@ defineProps<{
           v-bind="img"
         />
       </Motion>
-    </UMarquee>
+    </UMarquee> -->
   </UPageHero>
 </template>

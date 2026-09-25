@@ -21,6 +21,9 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   content: {
+    renderer: {
+      anchorLinks: false
+    },
     experimental: {
       sqliteConnector: 'native'
     }
