@@ -32,7 +32,7 @@ defineOgImage('Portfolio', { title, description })
 const getCleanImagePath = (src: string): string => {
   if (!src) return ''
   // Strips '/ipx/.../', '/_ipx/.../', or dynamic modifiers
-  const cleanPath = src.replace(/^(\/_?ipx\/[^\/]+\/|\/_?ipx\/)/i, '/')
+  const cleanPath = src.replace(/^(\/_?ipx\/[^/]+\/|\/_?ipx\/)/i, '/')
   // Ensures a single leading slash
   return cleanPath.startsWith('/') ? cleanPath : `/${cleanPath}`
 }

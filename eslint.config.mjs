@@ -6,7 +6,10 @@ import { getDefaultAttributes } from 'eslint-plugin-better-tailwindcss/api/defau
 export default withNuxt(
   {
     rules: {
-      '@typescript-eslint/no-explicit-any': 'off'
+      'vue/max-attributes-per-line': 'off',
+      'vue/first-attribute-linebreak': 'off',
+      'vue/html-closing-bracket-newline': 'off',
+      'vue/html-indent': 'off'
     }
   },
   betterTailwindcss.configs['correctness-error'],
