@@ -47,21 +47,13 @@ jobs:
       - name: Generate Nuxt static site
         run: pnpm exec nuxi generate
 
-      - name: Copy public assets to static output
+      - name: Copy all assets to output directory
         run: |
-          test -d public
           mkdir -p .output/public
-          cp -a public/. .output/public/
-
-      - name: Copy Nuxt client assets to public output
-        run: |
-          client_assets=$(find . -type d -path '*/.nuxt/dist/client' -print -quit)
-          test -n "$client_assets"
-          mkdir -p .output/public
-          cp -R "$client_assets"/. .output/public/
-
-      - name: Ensure .nojekyll exists
-        run: touch .output/public/.nojekyll
+          if [ -d "public" ]; then
+            rsync -av public/ .output/public/
+          fi
+          touch .output/public/.nojekyll
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
