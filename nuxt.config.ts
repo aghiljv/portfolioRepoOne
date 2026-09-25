@@ -38,10 +38,6 @@ export default defineNuxtConfig({
     }
   },
 
-  image: {
-    provider: 'ipx'
-  },
-
   eslint: {
     config: {
       stylistic: {
@@ -49,6 +45,10 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
+  },
+
+  image: {
+    provider: 'ipx'
   },
 
   ogImage: {
