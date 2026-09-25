@@ -28,65 +28,46 @@ useSeoMeta({
 
 defineOgImage('Portfolio', { title, description })
 
-const getWebpImage = (src: string) => {
-  return /\.jpe?g$/i.test(src) ? src.replace(/\.jpe?g$/i, '.webp') : undefined
+// Helper to clean IPX prefixes and normalize the image path
+const getCleanImagePath = (src: string): string => {
+  if (!src) return ''
+  // Strips '/ipx/.../', '/_ipx/.../', or dynamic modifiers
+  const cleanPath = src.replace(/^(\/_?ipx\/[^\/]+\/|\/_?ipx\/)/i, '/')
+  // Ensures a single leading slash
+  return cleanPath.startsWith('/') ? cleanPath : `/${cleanPath}`
+}
+
+const getWebpImage = (src: string): string | undefined => {
+  const clean = getCleanImagePath(src)
+  return /\.jpe?g$/i.test(clean) ? clean.replace(/\.jpe?g$/i, '.webp') : undefined
 }
 </script>
 
 <template>
   <UPage v-if="page">
-    <UPageHero
-      :title="page.title"
-      :description="page.description"
-      :links="page.links"
-      :ui="{
-        title: 'mx-0! text-left',
-        description: 'mx-0! text-left',
-        links: 'justify-start'
-      }"
-    >
+    <UPageHero :title="page.title" :description="page.description" :links="page.links" :ui="{
+      title: 'mx-0! text-left',
+      description: 'mx-0! text-left',
+      links: 'justify-start'
+    }">
       <template #links>
-        <div
-          v-if="page.links"
-          class="flex items-center gap-2"
-        >
-          <UButton
-            :label="page.links[0]?.label"
-            :to="global.meetingLink"
-            v-bind="page.links[0]"
-          />
-          <UButton
-            :to="`mailto:${global.email}`"
-            v-bind="page.links[1]"
-          />
+        <div v-if="page.links" class="flex items-center gap-2">
+          <UButton :label="page.links[0]?.label" :to="global.meetingLink" v-bind="page.links[0]" />
+          <UButton :to="`mailto:${global.email}`" v-bind="page.links[1]" />
         </div>
       </template>
     </UPageHero>
-    <UPageSection
-      :ui="{
-        container: 'pt-0!'
-      }"
-    >
-      <Motion
-        v-for="(project, index) in projects"
-        :key="project.title"
+    <UPageSection :ui="{
+      container: 'pt-0!'
+    }">
+      <Motion v-for="(project, index) in projects" :key="project.title"
         :initial="{ opacity: 0, transform: 'translateY(10px)' }"
-        :while-in-view="{ opacity: 1, transform: 'translateY(0)' }"
-        :transition="{ delay: 0.2 * index }"
-        :in-view-options="{ once: true }"
-      >
-        <UPageCard
-          :title="project.title"
-          :description="project.description"
-          :to="project.url"
-          orientation="horizontal"
-          variant="naked"
-          :reverse="index % 2 === 1"
-          class="group"
-          :ui="{
+        :while-in-view="{ opacity: 1, transform: 'translateY(0)' }" :transition="{ delay: 0.2 * index }"
+        :in-view-options="{ once: true }">
+        <UPageCard :title="project.title" :description="project.description" :to="project.url" orientation="horizontal"
+          variant="naked" :reverse="index % 2 === 1" class="group" :ui="{
             wrapper: 'max-sm:order-last'
-          }"
-        >
+          }">
           <template #leading>
             <span class="text-sm text-muted">
               {{ new Date(project.date).getFullYear() }}
@@ -104,18 +85,10 @@ const getWebpImage = (src: string) => {
               />
             </ULink>
           </template> -->
-          <picture>
-            <source
-              v-if="getWebpImage(project.image)"
-              :srcset="getWebpImage(project.image)"
-              type="image/webp"
-            >
-            <img
-              :src="project.image"
-              :alt="project.title"
-              loading="lazy"
-              class="object-cover w-full h-48 rounded-lg"
-            >
+          <picture v-if="project.image">
+            <source v-if="getWebpImage(project.image)" :srcset="getWebpImage(project.image)" type="image/webp">
+            <img :src="getCleanImagePath(project.image)" :alt="project.title" loading="lazy"
+              class="object-cover w-full h-48 rounded-lg">
           </picture>
         </UPageCard>
       </Motion>
