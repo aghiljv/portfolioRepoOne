@@ -54,8 +54,16 @@ const formatDate = (dateString: string) => {
   })
 }
 
-const getWebpImage = (src: string) => {
-  return /\.jpe?g$/i.test(src) ? src.replace(/\.jpe?g$/i, '.webp') : undefined
+// Strips /ipx/ or /_ipx/ prefixes and modifiers (like /s_72x72/)
+const getCleanImagePath = (src: string): string => {
+  if (!src) return ''
+  const cleanPath = src.replace(/^(\/_?ipx\/[^\/]+\/|\/_?ipx\/)/i, '/')
+  return cleanPath.startsWith('/') ? cleanPath : `/${cleanPath}`
+}
+
+const getWebpImage = (src: string): string | undefined => {
+  const clean = getCleanImagePath(src)
+  return /\.jpe?g$/i.test(clean) ? clean.replace(/\.jpe?g$/i, '.webp') : undefined
 }
 </script>
 
@@ -63,10 +71,7 @@ const getWebpImage = (src: string) => {
   <UMain class="mt-20 px-2">
     <UContainer class="relative min-h-screen">
       <UPage v-if="page">
-        <ULink
-          to="/blog"
-          class="text-sm flex items-center gap-1"
-        >
+        <ULink to="/blog" class="text-sm flex items-center gap-1">
           <UIcon name="lucide:chevron-left" />
           Blog
         </ULink>
@@ -82,20 +87,10 @@ const getWebpImage = (src: string) => {
               {{ page.minRead }} MIN READ
             </span>
           </div>
-          <picture
-            v-if="page.image"
-          >
-            <source
-              v-if="getWebpImage(page.image)"
-              :srcset="getWebpImage(page.image)"
-              type="image/webp"
-            >
-            <img
-              :src="page.image"
-              :alt="page.title"
-              loading="eager"
-              class="rounded-lg w-full h-[300px] object-cover object-center"
-            >
+          <picture v-if="page.image">
+            <source v-if="getWebpImage(page.image)" :srcset="getWebpImage(page.image)" type="image/webp">
+            <img :src="getCleanImagePath(page.image)" :alt="page.title" loading="eager"
+              class="rounded-lg w-full h-[300px] object-cover object-center">
           </picture>
           <h1 class="text-4xl text-center font-medium max-w-3xl mx-auto mt-4">
             {{ page.title }}
@@ -104,29 +99,15 @@ const getWebpImage = (src: string) => {
             {{ page.description }}
           </p>
           <div class="flex items-center justify-center gap-2 mt-2">
-            <UUser
-              orientation="vertical"
-              color="neutral"
-              variant="outline"
-              class="justify-center items-center text-center"
-              v-bind="page.author"
-            />
+            <UUser orientation="vertical" color="neutral" variant="outline"
+              class="justify-center items-center text-center" v-bind="page.author" />
           </div>
         </div>
         <UPageBody class="blog-content max-w-3xl mx-auto">
-          <ContentRenderer
-            v-if="page.body"
-            :value="page"
-          />
+          <ContentRenderer v-if="page.body" :value="page" />
 
           <div class="flex items-center justify-end gap-2 text-sm text-muted">
-            <UButton
-              size="sm"
-              variant="link"
-              color="neutral"
-              label="Copy link"
-              @click="copyArticleLink"
-            />
+            <UButton size="sm" variant="link" color="neutral" label="Copy link" @click="copyArticleLink" />
           </div>
           <UContentSurround :surround />
         </UPageBody>
