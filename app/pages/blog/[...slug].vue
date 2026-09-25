@@ -54,15 +54,14 @@ const formatDate = (dateString: string) => {
   })
 }
 
-// Strips '/_ipx/.../' or '/ipx/.../' and size options from paths
-const getCleanImagePath = (src?: string): string => {
+// Strips /ipx/ or /_ipx/ prefixes and modifiers (like /s_72x72/)
+const getCleanImagePath = (src: string): string => {
   if (!src) return ''
-  // Replaces leading IPX path wrappers with a clean root relative slash
-  const cleanPath = src.replace(/^(\/_?ipx\/[^/]+\/|\/_?ipx\/)/i, '/')
+  const cleanPath = src.replace(/^(\/_?ipx\/[^\/]+\/|\/_?ipx\/)/i, '/')
   return cleanPath.startsWith('/') ? cleanPath : `/${cleanPath}`
 }
 
-const getWebpImage = (src?: string): string | undefined => {
+const getWebpImage = (src: string): string | undefined => {
   const clean = getCleanImagePath(src)
   return /\.jpe?g$/i.test(clean) ? clean.replace(/\.jpe?g$/i, '.webp') : undefined
 }
@@ -90,7 +89,7 @@ const getWebpImage = (src?: string): string | undefined => {
           </div>
           <picture v-if="page.image">
             <source v-if="getWebpImage(page.image)" :srcset="getWebpImage(page.image)" type="image/webp">
-            <img :src="getCleanImagePath(page.image)" :alt="page.title" loading="eager"
+            <img :src="page.image" :alt="page.title" loading="eager"
               class="rounded-lg w-full h-[300px] object-cover object-center">
           </picture>
           <h1 class="text-4xl text-center font-medium max-w-3xl mx-auto mt-4">
