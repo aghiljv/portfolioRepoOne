@@ -43,6 +43,10 @@ const formatDate = (dateString: string) => {
     day: 'numeric'
   })
 }
+
+const getWebpImage = (src: string) => {
+  return /\.jpe?g$/i.test(src) ? src.replace(/\.jpe?g$/i, '.webp') : undefined
+}
 </script>
 
 <template>
@@ -68,12 +72,21 @@ const formatDate = (dateString: string) => {
               {{ page.minRead }} MIN READ
             </span>
           </div>
-          <img
+          <picture
             v-if="page.image"
-            :src="page.image"
-            :alt="page.title"
-            class="rounded-lg w-full h-[300px] object-cover object-center"
-          />
+          >
+            <source
+              v-if="getWebpImage(page.image)"
+              :srcset="getWebpImage(page.image)"
+              type="image/webp"
+            />
+            <img
+              :src="page.image"
+              :alt="page.title"
+              loading="eager"
+              class="rounded-lg w-full h-[300px] object-cover object-center"
+            />
+          </picture>
           <h1 class="text-4xl text-center font-medium max-w-3xl mx-auto mt-4">
             {{ page.title }}
           </h1>

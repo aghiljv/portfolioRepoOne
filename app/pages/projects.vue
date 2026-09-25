@@ -27,6 +27,10 @@ useSeoMeta({
 })
 
 defineOgImage('Portfolio', { title, description })
+
+const getWebpImage = (src: string) => {
+  return /\.jpe?g$/i.test(src) ? src.replace(/\.jpe?g$/i, '.webp') : undefined
+}
 </script>
 
 <template>
@@ -100,11 +104,19 @@ defineOgImage('Portfolio', { title, description })
               />
             </ULink>
           </template> -->
-          <img
-            :src="project.image"
-            :alt="project.title"
-            class="object-cover w-full h-48 rounded-lg"
-          >
+          <picture>
+            <source
+              v-if="getWebpImage(project.image)"
+              :srcset="getWebpImage(project.image)"
+              type="image/webp"
+            />
+            <img
+              :src="project.image"
+              :alt="project.title"
+              loading="lazy"
+              class="object-cover w-full h-48 rounded-lg"
+            >
+          </picture>
         </UPageCard>
       </Motion>
     </UPageSection>

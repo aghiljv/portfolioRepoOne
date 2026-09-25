@@ -1,12 +1,12 @@
 export default defineAppConfig({
   global: {
     picture: {
-      dark: '/assets/images/about.jpg',
-      light: '/assets/images/about.jpg',
+      dark: '/assets/images/about.webp',
+      light: '/assets/images/about.webp',
       alt: 'My profile picture'
     },
-    meetingLink: 'https://cal.com/',
-    email: 'ui-pro@nuxt.com',
+    meetingLink: 'https://cal.com/aghiljosecareer/15min',
+    email: 'career@aghiljose.com',
     available: true
   },
   ui: {
