@@ -57,7 +57,7 @@ const formatDate = (dateString: string) => {
 // Strips /ipx/ or /_ipx/ prefixes and modifiers (like /s_72x72/)
 const getCleanImagePath = (src: string): string => {
   if (!src) return ''
-  const cleanPath = src.replace(/^(\/_?ipx\/[^\/]+\/|\/_?ipx\/)/i, '/')
+  const cleanPath = src.replace(/^(\/_?ipx\/[^/]+\/|\/_?ipx\/)/i, '/')
   return cleanPath.startsWith('/') ? cleanPath : `/${cleanPath}`
 }
 
