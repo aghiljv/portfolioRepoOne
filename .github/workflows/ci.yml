@@ -47,12 +47,9 @@ jobs:
       - name: Generate Nuxt static site
         run: pnpm exec nuxi generate
 
-      - name: Copy all assets to output directory
+      - name: Copy all assets without overwriting built styles
         run: |
-          mkdir -p .output/public
-          if [ -d "public" ]; then
-            rsync -av public/ .output/public/
-          fi
+          cp -rn public/. .output/public/
           touch .output/public/.nojekyll
 
       - name: Upload Pages artifact
