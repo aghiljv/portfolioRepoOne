@@ -14,9 +14,9 @@ export default defineNuxtConfig({
     enabled: true
   },
 
-  app: {
-    baseURL: '/'
-  },
+  // app: {
+  //   baseURL: '/'
+  // },
 
   css: ['~/assets/css/main.css'],
 
