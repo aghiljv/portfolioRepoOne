@@ -50,6 +50,11 @@ jobs:
       - name: Copy public assets to static output
         run: cp -R public/. .output/public/
 
+      - name: Verify blog image assets
+        run: |
+          test -f .output/public/assets/images/blog/231023/keywords.webp
+          test -f .output/public/assets/images/blog/231023/keywords.jpg
+
       - name: Copy Nuxt client assets to public output
         run: |
           client_assets=$(find . -type d -path '*/.nuxt/dist/client' -print -quit)
